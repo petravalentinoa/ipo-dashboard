@@ -172,5 +172,630 @@
     "kebijakanDividen": "Perseroan belum menetapkan kebijakan dividen spesifik dalam prospektus ringkas. Berdasarkan riwayat, pada tahun 2025 Perseroan telah membagikan dividen sebesar Rp167,5 Miliar dari akumulasi saldo laba tahun-tahun sebelumnya. Kebijakan dividen ke depan akan mempertimbangkan laba bersih, kondisi keuangan, kebutuhan modal kerja, dan rencana ekspansi.",
     "risikoUtama": "Ketergantungan terhadap talent utama yaitu Raffi Ahmad dan Nagita Slavina beserta keluarga. Ketergantungan tersebut berpotensi menimbulkan dampak negatif terhadap kinerja usaha dan keuangan Perseroan apabila terjadi penurunan keterlibatan atau isu reputasi.",
     "catatanPenting": "Pendapatan RANS mengalami tren penurunan 3 tahun berturut-turut: dari Rp437,8M (2023) → Rp410,5M (2024) → Rp353,4M (2025). Laba bersih 2025 juga turun signifikan -41,6% YoY, meskipun laba 2024 mengandung komponen non-recurring (laba pelepasan entitas anak Rp44,9M). Lock-up period 8 bulan untuk seluruh pemegang saham lama. Raffi Ahmad berkomitmen tidak akan mengalihkan kepemilikannya selama 3 tahun setelah pencatatan."
+  },
+  {
+    "id": "bach",
+    "namaPerusahaan": "PT Bach Multi Global Tbk",
+    "kodeSaham": "BACH",
+    "jadwalIPO": {
+      "penawaranAwal": "22 - 24 Juni 2026",
+      "penawaranUmum": "29 Juni - 1 Juli 2026",
+      "penjatahanEfek": "2 Juli 2026",
+      "distribusiSaham": "6 Juli 2026",
+      "pencatatan": "7 Juli 2026"
+    },
+    "hargaIPO": { "min": 400, "max": 500 },
+    "jumlahSahamDitawarkan": "615.000.000 lembar (15,06%)",
+    "penjaminEmisi": "PT Erdikha Elit Sekuritas",
+    "status": "penawaran_awal",
+    "pemegangSaham": [
+      {
+        "nama": "PT Bach Multi Sukses Investama (BMSI)",
+        "jumlahSaham": "2.135.496.000",
+        "persentaseSebelumIPO": "61,55%",
+        "persentaseSetelahIPO": "52,28%"
+      },
+      {
+        "nama": "PT Global Telekomunikasi Prima (GTP)",
+        "jumlahSaham": "1.040.832.000",
+        "persentaseSebelumIPO": "30,00%",
+        "persentaseSetelahIPO": "25,48%"
+      },
+      {
+        "nama": "Budi Kurniawan",
+        "jumlahSaham": "69.600.000",
+        "persentaseSebelumIPO": "2,01%",
+        "persentaseSetelahIPO": "1,70%"
+      },
+      {
+        "nama": "Hartanto Rahardja",
+        "jumlahSaham": "62.400.000",
+        "persentaseSebelumIPO": "1,80%",
+        "persentaseSetelahIPO": "1,53%"
+      },
+      {
+        "nama": "Karyawan (MESOP/EMSOP)",
+        "jumlahSaham": "160.872.000",
+        "persentaseSebelumIPO": "4,64%",
+        "persentaseSetelahIPO": "3,94%"
+      },
+      {
+        "nama": "Masyarakat (setelah IPO)",
+        "jumlahSaham": "615.000.000",
+        "persentaseSebelumIPO": "-",
+        "persentaseSetelahIPO": "15,06%"
+      }
+    ],
+    "komisarisDanDireksi": {
+      "komisaris": [
+        { "nama": "Anita Anwar", "jabatan": "Komisaris Utama (juga Direktur PT Sarana Menara Nusantara Tbk / TOWR)" },
+        { "nama": "Budi Kurniawan", "jabatan": "Komisaris" },
+        { "nama": "Dedi Sjahrir", "jabatan": "Komisaris Independen" }
+      ],
+      "direksi": [
+        { "nama": "Hartanto Rahardja", "jabatan": "Direktur Utama" },
+        { "nama": "Lukas", "jabatan": "Direktur" },
+        { "nama": "Dian Herdiana", "jabatan": "Direktur" }
+      ]
+    },
+    "bisnisPerusahaan": {
+      "deskripsiSingkat": "BACH bergerak di bidang penjualan dan penyewaan generator set (genset) serta jasa konstruksi dan pemeliharaan infrastruktur telekomunikasi. Perseroan merupakan agen tunggal genset merek Himoinsa di Indonesia. Sejak Juli 2023 terafiliasi dengan grup Djarum melalui PT Sarana Menara Nusantara Tbk (TOWR) yang mengoperasikan ~36.049 menara telekomunikasi dan ~170.500 km jaringan fiber optik.",
+      "sektorIndustri": "Infrastruktur - Energi & Telekomunikasi",
+      "produkUtama": [
+        "Penjualan genset (diesel, bensin, gas — 7 kVA s/d 3.000 kVA)",
+        "Penyewaan genset",
+        "Jasa konstruksi menara telekomunikasi",
+        "Jasa pemeliharaan infrastruktur telekomunikasi",
+        "Agen tunggal genset Himoinsa Indonesia"
+      ],
+      "anakUsaha": [
+        {
+          "nama": "PT Bach Multi Infrastruktur (BMI)",
+          "bidangUsaha": "Jasa konstruksi infrastruktur telekomunikasi",
+          "kepemilikan": "99,99%"
+        }
+      ]
+    },
+    "keuangan": {
+      "pendapatan": [
+        { "tahun": "2023", "nilai": "Rp 1.004 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 1.241 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 1.733 Miliar" }
+      ],
+      "labaBersih": [
+        { "tahun": "2023", "nilai": "Rp 35 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 79 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 152 Miliar" }
+      ],
+      "totalAset": [
+        { "tahun": "2023", "nilai": "Rp 680 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 816 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 1.233 Miliar" }
+      ],
+      "totalLiabilitas": [
+        { "tahun": "2023", "nilai": "Rp 308 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 382 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 697 Miliar" }
+      ],
+      "totalEkuitas": [
+        { "tahun": "2023", "nilai": "Rp 372 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 434 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 536 Miliar" }
+      ]
+    },
+    "penggunaanDanaIPO": [
+      {
+        "keperluan": "Modal kerja pembelian genset",
+        "persentase": "70%",
+        "deskripsi": "Pembayaran kepada pemasok dalam rangka pembelian genset untuk dijual maupun disewakan (sekitar Rp213,48 miliar)"
+      },
+      {
+        "keperluan": "Pelunasan sebagian utang bank",
+        "persentase": "30%",
+        "deskripsi": "Pembayaran sebagian utang kepada PT Bank Permata Tbk atas fasilitas Omnibus Revolving Loan (sekitar Rp91,02 miliar)"
+      }
+    ],
+    "kebijakanDividen": "Setelah IPO, Perseroan berencana membagikan dividen kas hingga maksimal 50% dari laba bersih mulai tahun buku 2026 (dibayarkan tahun 2027). Direksi dapat mengubah kebijakan dividen sewaktu-waktu dengan persetujuan RUPS.",
+    "risikoUtama": "Ketergantungan terhadap pihak pemasok genset. Perseroan bergantung pada ketersediaan dan harga dari pemasok genset utama (Himoinsa dan lainnya), yang dapat mempengaruhi marjin dan operasional jika terjadi gangguan pasokan.",
+    "catatanPenting": "PENTING: Setelah IPO, akan terjadi perubahan pengendali. GTP (afiliasi Grup Djarum via TOWR) akan mengeksekusi hak opsi untuk membeli 1,04 miliar saham dari BMSI, sehingga kepemilikan GTP naik menjadi 51%. Ini berarti BACH secara efektif akan menjadi bagian dari Grup Djarum/TOWR. Keuangan menunjukkan pertumbuhan sangat kuat: pendapatan +39,66% YoY, laba bersih +97,54% YoY di 2025. Namun, Debt-to-Equity ratio cukup tinggi di 1,30x."
+  },
+  {
+    "id": "jecx",
+    "namaPerusahaan": "PT Nitrasanata Dharma Tbk (JEC Eye Hospitals & Clinics)",
+    "kodeSaham": "JECX",
+    "jadwalIPO": {
+      "penawaranAwal": "22 - 24 Juni 2026",
+      "penawaranUmum": "29 Juni - 1 Juli 2026",
+      "penjatahanEfek": "2 Juli 2026",
+      "distribusiSaham": "6 Juli 2026",
+      "pencatatan": "7 Juli 2026"
+    },
+    "hargaIPO": { "min": 1200, "max": 1400 },
+    "jumlahSahamDitawarkan": "487.983.500 lembar (15% — 10% saham baru + 5% divestasi)",
+    "penjaminEmisi": "PT Trimegah Sekuritas Indonesia Tbk",
+    "status": "penawaran_awal",
+    "pemegangSaham": [
+      {
+        "nama": "PT Sarana Meditama Metropolitan Tbk (SAME / Grup Emtek)",
+        "jumlahSaham": "-",
+        "persentaseSebelumIPO": "28,00%",
+        "persentaseSetelahIPO": "25,20%"
+      },
+      {
+        "nama": "Dr. Darwan Madja Purba, SpM",
+        "jumlahSaham": "-",
+        "persentaseSebelumIPO": "13,11%",
+        "persentaseSetelahIPO": "11,80%"
+      },
+      {
+        "nama": "PT Magna Selaras Lestari (pengendali)",
+        "jumlahSaham": "-",
+        "persentaseSebelumIPO": "10,15%",
+        "persentaseSetelahIPO": "9,14%"
+      },
+      {
+        "nama": "DR. Dr. Waldensius Girsang, SpM(K) (pemegang saham penjual)",
+        "jumlahSaham": "-",
+        "persentaseSebelumIPO": "6,22%",
+        "persentaseSetelahIPO": "0,59%"
+      },
+      {
+        "nama": "Dokter spesialis & pemegang saham lainnya (60+ orang)",
+        "jumlahSaham": "-",
+        "persentaseSebelumIPO": "42,52%",
+        "persentaseSetelahIPO": "38,27%"
+      },
+      {
+        "nama": "Masyarakat (setelah IPO)",
+        "jumlahSaham": "487.983.500",
+        "persentaseSebelumIPO": "-",
+        "persentaseSetelahIPO": "15,00%"
+      }
+    ],
+    "komisarisDanDireksi": {
+      "komisaris": [
+        { "nama": "DR. Dr. Waldensius Girsang, SpM(K)", "jabatan": "Komisaris Utama" },
+        { "nama": "Andrew Welly Suryajana", "jabatan": "Komisaris" },
+        { "nama": "Andri Hidayat", "jabatan": "Komisaris Independen" }
+      ],
+      "direksi": [
+        { "nama": "Johan A.M.M. Hutauruk", "jabatan": "Direktur Utama" },
+        { "nama": "Dr. Iwan Soebijantoro, SpM(K)", "jabatan": "Direktur" },
+        { "nama": "Sugih Heryanto", "jabatan": "Direktur" },
+        { "nama": "Dr. Florence Munthe, SpM(K)", "jabatan": "Direktur" }
+      ]
+    },
+    "bisnisPerusahaan": {
+      "deskripsiSingkat": "JECX adalah pengelola jaringan rumah sakit dan klinik mata JEC Eye Hospitals & Clinics, salah satu penyedia layanan kesehatan mata terbesar di Indonesia. Berdiri sejak 1984 (awalnya Klinik Mata Jakarta), JEC mengoperasikan 5 rumah sakit khusus mata dan 11 klinik mata. JECX merupakan entitas asosiasi PT Sarana Meditama Metropolitan Tbk (SAME), bagian dari Grup Emtek.",
+      "sektorIndustri": "Healthcare - Rumah Sakit & Klinik Mata",
+      "produkUtama": [
+        "Operasi mata (LASIK, SMILE, katarak, glaukoma)",
+        "Layanan refraktif & koreksi penglihatan",
+        "Layanan vitreoretina",
+        "Injeksi intravitreal",
+        "Konsultasi & pemeriksaan mata spesialis",
+        "Divisi optik (kacamata & lensa kontak)",
+        "Medical tourism (ekspansi ke KEK Sanur, Bali)"
+      ],
+      "anakUsaha": [
+        { "nama": "PT Orbita", "bidangUsaha": "Operasional rumah sakit mata JEC", "kepemilikan": "mayoritas" },
+        { "nama": "PT Nitra Sanata Bali (NSB)", "bidangUsaha": "RS Mata JEC di Bali (termasuk KEK Sanur)", "kepemilikan": "mayoritas" },
+        { "nama": "PT JEC Candi Sejahtera", "bidangUsaha": "RS Mata JEC di Jawa Timur", "kepemilikan": "mayoritas" },
+        { "nama": "12 entitas anak lainnya", "bidangUsaha": "Klinik mata JEC di berbagai kota Indonesia", "kepemilikan": "mayoritas" }
+      ]
+    },
+    "keuangan": {
+      "pendapatan": [
+        { "tahun": "2023", "nilai": "Rp 818 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 888 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 927 Miliar" }
+      ],
+      "labaBersih": [
+        { "tahun": "2023", "nilai": "Rp 48 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 62 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 72 Miliar" }
+      ],
+      "totalAset": [
+        { "tahun": "2023", "nilai": "Rp 1.260 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 1.380 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 1.580 Miliar" }
+      ],
+      "totalLiabilitas": [
+        { "tahun": "2023", "nilai": "Rp 575 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 588 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 640 Miliar" }
+      ],
+      "totalEkuitas": [
+        { "tahun": "2023", "nilai": "Rp 685 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 792 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 940 Miliar" }
+      ]
+    },
+    "penggunaanDanaIPO": [
+      {
+        "keperluan": "Modal kerja operasional",
+        "persentase": "52,41%",
+        "deskripsi": "Modal kerja untuk kegiatan operasional harian termasuk gaji, tunjangan karyawan, hingga akhir 2027"
+      },
+      {
+        "keperluan": "Penyaluran dana ke anak usaha",
+        "persentase": "27,08%",
+        "deskripsi": "Rp50M setoran modal ke PT Nitra Sanata Bali (ekspansi Bali), Rp100M pinjaman ke PT Orbita (lunasi utang BCA), Rp35M pinjaman ke PT JEC Candi Sejahtera (lunasi utang BCA)"
+      },
+      {
+        "keperluan": "Pelunasan utang bank HSBC",
+        "persentase": "14,64%",
+        "deskripsi": "Pembayaran lebih awal sebagian pokok pinjaman kepada PT Bank HSBC Indonesia (Rp100 miliar)"
+      },
+      {
+        "keperluan": "Pelunasan utang bank BCA",
+        "persentase": "5,87%",
+        "deskripsi": "Pembayaran lebih awal sebagian pokok pinjaman kepada PT Bank Central Asia Tbk (Rp40 miliar)"
+      }
+    ],
+    "kebijakanDividen": "Setelah IPO, Perseroan berencana membagikan dividen tunai dengan rasio hingga maksimal 50% dari laba bersih setelah penyisihan cadangan wajib. Manajemen juga membuka peluang pembagian dividen interim jika kondisi keuangan memungkinkan. Keputusan final ditetapkan melalui RUPS.",
+    "risikoUtama": "Ketergantungan terhadap para dokter, perawat, dan tenaga profesional yang berperan penting dalam operasional dan strategi pertumbuhan perusahaan. Kehilangan dokter spesialis kunci dapat berdampak pada kualitas layanan dan reputasi.",
+    "catatanPenting": "JECX memiliki struktur kepemilikan unik: sahamnya dimiliki oleh 60+ dokter spesialis dan profesional yang bekerja di JEC. Dr. Waldensius Girsang (pendiri) melakukan divestasi 5% sahamnya melalui IPO ini — kepemilikannya turun dari 6,22% ke 0,59%. PT SAME (Grup Emtek) adalah pemegang saham strategis 28%. Tren keuangan positif: pendapatan dan laba naik konsisten 3 tahun. Ekspansi ke KEK Sanur Bali untuk medical tourism menjadi katalis pertumbuhan utama. Valuasi IPO dinilai cukup premium oleh beberapa analis."
+  },
+  {
+    "id": "emmi",
+    "namaPerusahaan": "PT Esa Medika Mandiri Tbk",
+    "kodeSaham": "EMMI",
+    "jadwalIPO": {
+      "penawaranAwal": "22 - 24 Juni 2026",
+      "penawaranUmum": "29 Juni - 1 Juli 2026",
+      "penjatahanEfek": "3 Juli 2026",
+      "distribusiSaham": "7 Juli 2026",
+      "pencatatan": "8 Juli 2026"
+    },
+    "hargaIPO": { "min": 446, "max": 515 },
+    "jumlahSahamDitawarkan": "522.857.000 lembar (30%)",
+    "penjaminEmisi": "PT BRI Danareksa Sekuritas & PT Ina Sekuritas Indonesia",
+    "status": "penawaran_awal",
+    "pemegangSaham": [
+      {
+        "nama": "Surya Gunawan Widjaja (pengendali)",
+        "jumlahSaham": "-",
+        "persentaseSebelumIPO": "30,00%",
+        "persentaseSetelahIPO": "21,00%"
+      },
+      {
+        "nama": "Andrew Ignatius Widjaja",
+        "jumlahSaham": "-",
+        "persentaseSebelumIPO": "23,00%",
+        "persentaseSetelahIPO": "16,10%"
+      },
+      {
+        "nama": "Florian Chris Widjaja (Direktur Utama)",
+        "jumlahSaham": "-",
+        "persentaseSebelumIPO": "16,00%",
+        "persentaseSetelahIPO": "11,20%"
+      },
+      {
+        "nama": "Andrian Matthew Widjaja (Direktur)",
+        "jumlahSaham": "-",
+        "persentaseSebelumIPO": "16,00%",
+        "persentaseSetelahIPO": "11,20%"
+      },
+      {
+        "nama": "Eddy Lie (Direktur)",
+        "jumlahSaham": "-",
+        "persentaseSebelumIPO": "15,00%",
+        "persentaseSetelahIPO": "10,50%"
+      },
+      {
+        "nama": "Masyarakat (setelah IPO)",
+        "jumlahSaham": "522.857.000",
+        "persentaseSebelumIPO": "-",
+        "persentaseSetelahIPO": "30,00%"
+      }
+    ],
+    "komisarisDanDireksi": {
+      "komisaris": [
+        { "nama": "Surya Gunawan Widjaja", "jabatan": "Komisaris Utama (usia 72 tahun, pengendali perseroan)" },
+        { "nama": "Sodikin Sadek", "jabatan": "Komisaris Independen" }
+      ],
+      "direksi": [
+        { "nama": "Florian Chris Widjaja", "jabatan": "Direktur Utama (usia 40 tahun)" },
+        { "nama": "Eddy Lie", "jabatan": "Direktur" },
+        { "nama": "Jason Aaron Lie", "jabatan": "Direktur (usia 38 tahun)" },
+        { "nama": "Andrian Matthew Widjaja", "jabatan": "Direktur" }
+      ]
+    },
+    "bisnisPerusahaan": {
+      "deskripsiSingkat": "EMMI bergerak di bidang perdagangan besar alat laboratorium, alat farmasi, dan alat kedokteran untuk manusia. Perseroan dikenal sebagai penyedia peralatan rumah sakit untuk layanan kritikal seperti ruang operasi (operating theatre) dan ICU. EMMI juga memegang hak distribusi eksklusif sejumlah merek teknologi medis (medtech) global di Indonesia. Berdiri sejak tahun 2000 dengan pengalaman lebih dari 20 tahun.",
+      "sektorIndustri": "Healthcare - Alat Kesehatan & Medtech",
+      "produkUtama": [
+        "Peralatan ruang operasi (operating theatre)",
+        "Peralatan ICU (Intensive Care Unit)",
+        "Alat laboratorium medis",
+        "Alat farmasi & kedokteran",
+        "Distribusi eksklusif merek medtech global",
+        "Layanan purna jual alat kesehatan",
+        "Rencana produksi benang bedah (consumables)"
+      ],
+      "anakUsaha": [
+        { "nama": "PT Sonne Utama Nusantara (SUN)", "bidangUsaha": "Manufaktur alat kesehatan (pabrik Cikupa)", "kepemilikan": "99,99%" },
+        { "nama": "PT Exa Buana Teknik (EBT)", "bidangUsaha": "Manufaktur alat kesehatan (pabrik Solo)", "kepemilikan": "99,96%" },
+        { "nama": "PT Ethos Global Indonesia (EGI)", "bidangUsaha": "Distribusi alat kesehatan", "kepemilikan": "99,99%" }
+      ]
+    },
+    "keuangan": {
+      "pendapatan": [
+        { "tahun": "2023", "nilai": "Rp 340 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 385 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 455 Miliar" }
+      ],
+      "labaBersih": [
+        { "tahun": "2023", "nilai": "Rp 14 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 16 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 46 Miliar" }
+      ],
+      "totalAset": [
+        { "tahun": "2023", "nilai": "Rp 424 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 452 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 551 Miliar" }
+      ],
+      "totalLiabilitas": [
+        { "tahun": "2023", "nilai": "Rp 312 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 317 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 365 Miliar" }
+      ],
+      "totalEkuitas": [
+        { "tahun": "2023", "nilai": "Rp 112 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 135 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 186 Miliar" }
+      ]
+    },
+    "penggunaanDanaIPO": [
+      {
+        "keperluan": "Modal kerja operasional",
+        "persentase": "68,70%",
+        "deskripsi": "Pembelian barang terkait proyek, bahan baku, dan persediaan alat kesehatan"
+      },
+      {
+        "keperluan": "Pelunasan sebagian utang Bank Ina Perdana",
+        "persentase": "19,50%",
+        "deskripsi": "Pembayaran sebagian pokok pinjaman fasilitas Kredit Modal Kerja-Demand Loan sebesar Rp50 miliar"
+      },
+      {
+        "keperluan": "Pembangunan pabrik baru Cikupa",
+        "persentase": "11,80%",
+        "deskripsi": "Belanja modal untuk pembangunan gedung pabrik alat kesehatan di Cikupa, Tangerang"
+      }
+    ],
+    "kebijakanDividen": "Perseroan berencana membagikan dividen tunai mulai tahun buku 2027 dengan rasio pembayaran hingga 30% dari laba bersih tahun berjalan. Besaran dividen ditentukan melalui RUPS dengan mempertimbangkan kondisi keuangan, arus kas, kebutuhan modal kerja, dan rencana investasi.",
+    "risikoUtama": "Risiko konsentrasi pelanggan — sebagian besar penjualan EMMI masih ditujukan kepada instansi pemerintah. Ketergantungan pada proyek-proyek pengadaan pemerintah dapat mempengaruhi stabilitas pendapatan.",
+    "catatanPenting": "EMMI adalah perusahaan keluarga Widjaja — seluruh 5 pemegang saham sebelum IPO berasal dari keluarga dan kerabat. Free float 30% cukup besar dibanding IPO lain di batch ini. Laba bersih 2025 melonjak 188% YoY (dari Rp16M ke Rp46M). Perusahaan telah memperoleh sertifikasi TKDN (Tingkat Komponen Dalam Negeri) yang menjadi nilai tambah di tender pemerintah. Selama 2022-2025, perolehan proyek lebih dari Rp750 miliar. Direksi relatif muda (Dirut usia 40 tahun)."
+  },
+  {
+    "id": "prdl",
+    "namaPerusahaan": "PT Prodia Diagnostic Line Tbk (Proline)",
+    "kodeSaham": "PRDL",
+    "jadwalIPO": {
+      "penawaranAwal": "18 - 23 Juni 2026",
+      "penawaranUmum": "29 Juni - 1 Juli 2026",
+      "penjatahanEfek": "3 Juli 2026",
+      "distribusiSaham": "7 Juli 2026",
+      "pencatatan": "9 Juli 2026"
+    },
+    "hargaIPO": { "min": 100, "max": 120 },
+    "jumlahSahamDitawarkan": "522.900.000 lembar (30%)",
+    "penjaminEmisi": "PT Sucor Sekuritas",
+    "status": "penawaran_awal",
+    "pemegangSaham": [
+      {
+        "nama": "PT Prodia Utama (pengendali, induk Grup Prodia)",
+        "jumlahSaham": "622.200.000",
+        "persentaseSebelumIPO": "51,00%",
+        "persentaseSetelahIPO": "35,70%"
+      },
+      {
+        "nama": "PT Prodia Widyahusada Tbk (PRDA)",
+        "jumlahSaham": "475.800.000",
+        "persentaseSebelumIPO": "39,00%",
+        "persentaseSetelahIPO": "27,30%"
+      },
+      {
+        "nama": "DiaSys Diagnostic Systems GmbH (Jerman)",
+        "jumlahSaham": "122.000.000",
+        "persentaseSebelumIPO": "10,00%",
+        "persentaseSetelahIPO": "7,00%"
+      },
+      {
+        "nama": "Masyarakat (setelah IPO)",
+        "jumlahSaham": "522.900.000",
+        "persentaseSebelumIPO": "-",
+        "persentaseSetelahIPO": "30,00%"
+      }
+    ],
+    "komisarisDanDireksi": {
+      "komisaris": [
+        { "nama": "Andi Widjaja", "jabatan": "Komisaris Utama" },
+        { "nama": "Dewi Muliaty Widjaja", "jabatan": "Komisaris" },
+        { "nama": "Indriyanto Seno Adji", "jabatan": "Komisaris Independen" }
+      ],
+      "direksi": [
+        { "nama": "Lodewijk Arif Soenardi", "jabatan": "Direktur Utama" },
+        { "nama": "Yohannes Suharto", "jabatan": "Direktur" }
+      ]
+    },
+    "bisnisPerusahaan": {
+      "deskripsiSingkat": "PRDL (nama komersial: Proline) adalah produsen alat kesehatan In Vitro Diagnostic (IVD), yaitu perangkat dan reagen untuk pemeriksaan diagnostik laboratorium. Anak usaha Grup Prodia yang memanfaatkan pengalaman lebih dari 45 tahun di bidang kimia klinik. Produk mencakup kimia klinik, hematologi, imunologi, biomolekular, dan instrumen diagnostik. Jaringan distribusi menjangkau 370 kabupaten/kota di Indonesia.",
+      "sektorIndustri": "Healthcare - In Vitro Diagnostics (IVD) / Alat Kesehatan Diagnostik",
+      "produkUtama": [
+        "Reagen kimia klinik (kontributor utama 81% pendapatan)",
+        "Reagen hematologi",
+        "Reagen imunologi & biomolekular",
+        "Instrumen diagnostik laboratorium",
+        "Solusi IVD lengkap (formulasi, kemasan, pelatihan, dukungan)"
+      ],
+      "anakUsaha": [
+        { "nama": "Tidak ada anak usaha", "bidangUsaha": "PRDL sendiri adalah anak usaha dari Grup Prodia", "kepemilikan": "-" }
+      ]
+    },
+    "keuangan": {
+      "pendapatan": [
+        { "tahun": "2023", "nilai": "Rp 48 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 59 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 74 Miliar" }
+      ],
+      "labaBersih": [
+        { "tahun": "2023", "nilai": "Rp 7 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 10 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 17 Miliar" }
+      ],
+      "totalAset": [
+        { "tahun": "2023", "nilai": "Rp 141 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 163 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 194 Miliar" }
+      ],
+      "totalLiabilitas": [
+        { "tahun": "2023", "nilai": "Rp 75 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 97 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 111 Miliar" }
+      ],
+      "totalEkuitas": [
+        { "tahun": "2023", "nilai": "Rp 66 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 66 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 83 Miliar" }
+      ]
+    },
+    "penggunaanDanaIPO": [
+      {
+        "keperluan": "Pelunasan utang bank BCA & Panin",
+        "persentase": "62,57%",
+        "deskripsi": "Pelunasan pokok fasilitas kredit kepada PT Bank Central Asia Tbk dan PT Bank Pan Indonesia Tbk senilai Rp35,67 miliar"
+      },
+      {
+        "keperluan": "Belanja modal (capex)",
+        "persentase": "28,92%",
+        "deskripsi": "Pembelian mesin, peralatan kalibrasi, perangkat lunak, kendaraan, serta pengembangan fasilitas produksi"
+      },
+      {
+        "keperluan": "Modal kerja",
+        "persentase": "8,51%",
+        "deskripsi": "Pembelian bahan baku, pengembangan produk, dan kegiatan pemasaran"
+      }
+    ],
+    "kebijakanDividen": "Kebijakan dividen belum dinyatakan secara spesifik dalam prospektus ringkas. Sebagai referensi, induk PRDA membagikan dividen dengan payout ratio 70% dari laba tahun berjalan 2025.",
+    "risikoUtama": "Ketergantungan terhadap belanja pemerintah di sektor kesehatan. Sebagian besar pendapatan PRDL berasal dari pengadaan pemerintah dan fasilitas kesehatan yang dibiayai anggaran negara.",
+    "catatanPenting": "PRDL adalah IPO paling kecil dari segi nilai (maks Rp62,75 miliar) dan harga (Rp100-120/saham) di batch Juni-Juli 2026. Namun pertumbuhan kuat: pendapatan +26,8% YoY dan laba +69,9% YoY di 2025. Didukung Grup Prodia (lab diagnostik terbesar Indonesia, 402 outlet di 34 provinsi) dan mitra teknologi DiaSys dari Jerman. Peluang besar: 47% faskes dan 38% dinkes di Indonesia belum jadi pelanggan. Program Cek Kesehatan Gratis pemerintah (anggaran Rp2,6 triliun) bisa jadi katalis. Porsi terbesar dana IPO (63%) untuk bayar utang — perlu dicermati."
+  },
+  {
+    "id": "jeli",
+    "namaPerusahaan": "PT Niramas Utama Tbk (INACO)",
+    "kodeSaham": "JELI",
+    "jadwalIPO": {
+      "penawaranAwal": "15 - 22 Juni 2026",
+      "penawaranUmum": "29 Juni - 1 Juli 2026",
+      "penjatahanEfek": "2 Juli 2026",
+      "distribusiSaham": "6 Juli 2026",
+      "pencatatan": "7 Juli 2026"
+    },
+    "hargaIPO": { "min": 900, "max": 1120 },
+    "jumlahSahamDitawarkan": "350.000.000 lembar (25,93%)",
+    "penjaminEmisi": "PT Sucor Sekuritas",
+    "status": "penawaran_awal",
+    "pemegangSaham": [
+      {
+        "nama": "PT Niramas Utama International (pengendali, milik Japyusuf Hamdani)",
+        "jumlahSaham": "998.000.000",
+        "persentaseSebelumIPO": "99,80%",
+        "persentaseSetelahIPO": "73,92%"
+      },
+      {
+        "nama": "Sadikun Wiratno",
+        "jumlahSaham": "2.000.000",
+        "persentaseSebelumIPO": "0,20%",
+        "persentaseSetelahIPO": "0,15%"
+      },
+      {
+        "nama": "Masyarakat (setelah IPO)",
+        "jumlahSaham": "350.000.000",
+        "persentaseSebelumIPO": "-",
+        "persentaseSetelahIPO": "25,93%"
+      }
+    ],
+    "komisarisDanDireksi": {
+      "komisaris": [
+        { "nama": "Japyusuf Hamdani", "jabatan": "Komisaris Utama (pengendali, usia 85 tahun)" },
+        { "nama": "Prof. Dr. H. Rycko Amelza Dahniel, M.Si.", "jabatan": "Komisaris Independen" }
+      ],
+      "direksi": [
+        { "nama": "Adhi Siswaya Lukman", "jabatan": "Direktur Utama" },
+        { "nama": "Direktur lainnya", "jabatan": "Akan diverifikasi dari prospektus resmi" }
+      ]
+    },
+    "bisnisPerusahaan": {
+      "deskripsiSingkat": "JELI (merek dagang: INACO) adalah pionir dan market leader industri makanan penutup (dessert) sehat berbasis kelapa dan serat alami di Indonesia sejak 1990. Produk INACO menjadi top of mind di kategori nata de coco dan jelly. Memiliki pangsa pasar 49,57% di kategori Jelly, 19,87% di Nata de Coco, dan 16,01% di Pudding. Produk diekspor ke Jepang, India, China, Thailand, Australia, Kanada, dan Amerika Serikat.",
+      "sektorIndustri": "Consumer Non-Cyclicals - Makanan & Minuman",
+      "produkUtama": [
+        "Nata de Coco (berbagai varian rasa)",
+        "Mini Jelly with Nata de Coco",
+        "Puding siap santap",
+        "Jelly Drink",
+        "I'm Coco (minuman kelapa)",
+        "Produk Aloe Vera",
+        "Gummy Candy (produk baru via anak usaha)",
+        "Konnyaku"
+      ],
+      "anakUsaha": [
+        { "nama": "PT Supra Natami Utama", "bidangUsaha": "Produksi bahan baku nata de coco", "kepemilikan": "99,99%" },
+        { "nama": "PT Niramas Pandaan Sejahtera (NPS)", "bidangUsaha": "Produksi gummy candy dan permen jeli (Pandaan, Jawa Timur)", "kepemilikan": "99,99%" }
+      ]
+    },
+    "keuangan": {
+      "pendapatan": [
+        { "tahun": "2023", "nilai": "Rp 839 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 788 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 753 Miliar" }
+      ],
+      "labaBersih": [
+        { "tahun": "2023", "nilai": "Rp 1,6 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 12,9 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 39 Miliar" }
+      ],
+      "totalAset": [
+        { "tahun": "2023", "nilai": "Rp 1.092 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 1.085 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 1.108 Miliar" }
+      ],
+      "totalLiabilitas": [
+        { "tahun": "2023", "nilai": "Rp 655 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 637 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 623 Miliar" }
+      ],
+      "totalEkuitas": [
+        { "tahun": "2023", "nilai": "Rp 437 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 448 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 485 Miliar" }
+      ]
+    },
+    "penggunaanDanaIPO": [
+      {
+        "keperluan": "Penyertaan modal ke anak usaha PT NPS",
+        "persentase": "51,04%",
+        "deskripsi": "Modal untuk pembelian dan instalasi mesin produksi gummy candy dan jelly otomatis guna meningkatkan kapasitas produksi (sekitar Rp200 miliar)"
+      },
+      {
+        "keperluan": "Belanja modal (capex)",
+        "persentase": "18,36%",
+        "deskripsi": "Pembelian mesin Jelly Sachet/Stick, perluasan kapasitas gudang Bekasi, dan instalasi peralatan produksi (sekitar Rp72 miliar)"
+      },
+      {
+        "keperluan": "Modal kerja operasional",
+        "persentase": "19,97%",
+        "deskripsi": "Pembelian bahan baku, biaya operasional, dan kegiatan pemasaran untuk mendukung pertumbuhan usaha"
+      },
+      {
+        "keperluan": "Pelunasan sebagian utang Bank Mandiri",
+        "persentase": "10,63%",
+        "deskripsi": "Pembayaran sebagian pokok utang KMK 1 dan KMK 2 kepada PT Bank Mandiri Tbk sebesar Rp40 miliar (sisa utang dari Rp94M menjadi Rp54M)"
+      }
+    ],
+    "kebijakanDividen": "Setelah IPO, Perseroan berencana membagikan dividen tunai dengan rasio maksimal 30% dari laba bersih setiap tahun setelah penyisihan cadangan wajib. Keputusan final melalui RUPS dengan mempertimbangkan kondisi keuangan, arus kas, dan kebutuhan pengembangan usaha.",
+    "risikoUtama": "Pendapatan menunjukkan tren penurunan 3 tahun berturut-turut (dari Rp839M ke Rp753M). Meskipun laba melonjak berkat efisiensi, keberhasilan ekspansi produk baru (gummy candy) menjadi kunci keberlanjutan pertumbuhan.",
+    "catatanPenting": "INACO adalah brand yang sangat dikenal masyarakat — market leader di kategori Jelly (49,57% market share). Tapi ada paradoks menarik: pendapatan TURUN 3 tahun berturut-turut (Rp839M → Rp788M → Rp753M), sementara laba bersih MELONJAK drastis (Rp1,6M → Rp12,9M → Rp39M) berkat efisiensi biaya pokok yang turun 12,58%. Valuasi IPO tergolong premium (PER 31-39x) dibanding peers seperti MYOR (18-22x) dan ULTJ (11-14x). Dana IPO 51% untuk ekspansi gummy candy via anak usaha NPS. Pengendali Japyusuf Hamdani berusia 85 tahun — berkomitmen tidak melepas kendali minimal 12 bulan setelah IPO. Kepemilikan sangat terkonsentrasi: 99,8% oleh satu entitas sebelum IPO."
   }
 ]

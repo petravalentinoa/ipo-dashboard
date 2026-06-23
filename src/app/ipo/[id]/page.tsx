@@ -9,6 +9,7 @@ import InfoBox from "@/components/InfoBox";
 import TrendIndicator from "@/components/TrendIndicator";
 import ProgressBar from "@/components/ProgressBar";
 import StickyNav from "@/components/StickyNav";
+import FinanceCharts from "@/components/FinanceCharts";
 
 function getIpoList(): IPOData[] {
   const filePath = path.join(process.cwd(), "src", "data", "ipo-list.json");
@@ -403,35 +404,8 @@ export default async function IpoDetailPage({
             </table>
           </div>
 
-          {/* Mini bar chart */}
-          <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-3">
-            {keuanganRows.map((row) => {
-              const vals = row.data.map((d) => {
-                const clean = d.nilai.replace(/[Rp.\s]/g, "").toLowerCase();
-                const m = clean.match(/([\d,]+)\s*(triliun|miliar|juta)?/);
-                if (!m) return 0;
-                const n = parseFloat(m[1].replace(",", "."));
-                const u = m[2];
-                if (u === "triliun") return n * 1000;
-                if (u === "miliar") return n;
-                return n;
-              });
-              const maxVal = Math.max(...vals);
-              return (
-                <div key={row.metrik}>
-                  <p className="mb-2 text-[13px] font-medium text-muted">{row.metrik}</p>
-                  <div className="flex items-end gap-2 h-20">
-                    {row.data.map((d, i) => (
-                      <div key={d.tahun} className="flex flex-1 flex-col items-center gap-1">
-                        <div className="w-full overflow-hidden rounded-t bg-primary/80" style={{ height: `${maxVal > 0 ? (vals[i] / maxVal) * 64 : 0}px` }} />
-                        <span className="text-[10px] text-muted">{d.tahun}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+          {/* Grouped bar charts */}
+          <FinanceCharts keuangan={ipo.keuangan} />
 
           <InfoBox>
             Perhatikan apakah pendapatan dan laba bersih konsisten naik selama 3 tahun terakhir.
