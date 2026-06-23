@@ -307,43 +307,61 @@
       "penawaranAwal": "22 - 24 Juni 2026",
       "penawaranUmum": "29 Juni - 1 Juli 2026",
       "penjatahanEfek": "2 Juli 2026",
-      "distribusiSaham": "6 Juli 2026",
-      "pencatatan": "7 Juli 2026"
+      "distribusiSaham": "3 Juli 2026",
+      "pencatatan": "6 Juli 2026"
     },
     "hargaIPO": { "min": 1200, "max": 1400 },
-    "jumlahSahamDitawarkan": "487.983.500 lembar (15% — 10% saham baru + 5% divestasi)",
+    "jumlahSahamDitawarkan": "487.983.500 lembar (15% — 325.322.300 saham baru 10% + 162.661.200 saham divestasi 5%)",
     "penjaminEmisi": "PT Trimegah Sekuritas Indonesia Tbk",
     "status": "penawaran_awal",
     "pemegangSaham": [
       {
         "nama": "PT Sarana Meditama Metropolitan Tbk (SAME / Grup Emtek)",
-        "jumlahSaham": "-",
+        "jumlahSaham": "819.800.000",
         "persentaseSebelumIPO": "28,00%",
         "persentaseSetelahIPO": "25,20%"
       },
       {
         "nama": "Dr. Darwan Madja Purba, SpM",
-        "jumlahSaham": "-",
+        "jumlahSaham": "383.700.000",
         "persentaseSebelumIPO": "13,11%",
-        "persentaseSetelahIPO": "11,80%"
+        "persentaseSetelahIPO": "11,79%"
       },
       {
-        "nama": "PT Magna Selaras Lestari (pengendali)",
-        "jumlahSaham": "-",
+        "nama": "PT Magna Selaras Lestari",
+        "jumlahSaham": "297.155.097",
         "persentaseSebelumIPO": "10,15%",
-        "persentaseSetelahIPO": "9,14%"
+        "persentaseSetelahIPO": "9,13%"
+      },
+      {
+        "nama": "Rayyan Farrel Wardhana Istiantoro",
+        "jumlahSaham": "289.450.000",
+        "persentaseSebelumIPO": "9,89%",
+        "persentaseSetelahIPO": "8,90%"
+      },
+      {
+        "nama": "Nabbil Wardhana Istiantoro",
+        "jumlahSaham": "289.450.000",
+        "persentaseSebelumIPO": "9,89%",
+        "persentaseSetelahIPO": "8,90%"
       },
       {
         "nama": "DR. Dr. Waldensius Girsang, SpM(K) (pemegang saham penjual)",
-        "jumlahSaham": "-",
+        "jumlahSaham": "182.000.000",
         "persentaseSebelumIPO": "6,22%",
         "persentaseSetelahIPO": "0,59%"
       },
       {
-        "nama": "Dokter spesialis & pemegang saham lainnya (60+ orang)",
-        "jumlahSaham": "-",
-        "persentaseSebelumIPO": "42,52%",
-        "persentaseSetelahIPO": "38,27%"
+        "nama": "Prof. DR. Dr. Widya Artini Wijogo, SpM",
+        "jumlahSaham": "108.200.000",
+        "persentaseSebelumIPO": "3,70%",
+        "persentaseSetelahIPO": "3,33%"
+      },
+      {
+        "nama": "Lainnya (50+ dokter spesialis mata & profesional)",
+        "jumlahSaham": "558.144.903",
+        "persentaseSebelumIPO": "19,06%",
+        "persentaseSetelahIPO": "17,16%"
       },
       {
         "nama": "Masyarakat (setelah IPO)",
@@ -354,61 +372,77 @@
     ],
     "komisarisDanDireksi": {
       "komisaris": [
-        { "nama": "DR. Dr. Waldensius Girsang, SpM(K)", "jabatan": "Komisaris Utama" },
-        { "nama": "Andrew Welly Suryajana", "jabatan": "Komisaris" },
-        { "nama": "Andri Hidayat", "jabatan": "Komisaris Independen" }
+        { "nama": "DR. Dr. Waldensius Girsang, SpM(K)", "jabatan": "Komisaris Utama (pendiri JEC)" },
+        { "nama": "Agus Hermawan Iskandar, B.S B.A, MBA", "jabatan": "Komisaris" },
+        { "nama": "Yustinus Penyami Jap", "jabatan": "Komisaris Independen" },
+        { "nama": "Heri Suryajadi", "jabatan": "Komisaris Independen" }
       ],
       "direksi": [
-        { "nama": "Johan A.M.M. Hutauruk", "jabatan": "Direktur Utama" },
-        { "nama": "Dr. Iwan Soebijantoro, SpM(K)", "jabatan": "Direktur" },
-        { "nama": "Sugih Heryanto", "jabatan": "Direktur" },
-        { "nama": "Dr. Florence Munthe, SpM(K)", "jabatan": "Direktur" }
+        { "nama": "DR. Dr. Johan A. M. M. Hutauruk, SpM(K)", "jabatan": "Presiden Direktur" },
+        { "nama": "Prof. Dr. Tjahjono D.G, SpM(K), Ph.D", "jabatan": "Direktur" },
+        { "nama": "Tito Priharyatno, S.E, MARS, CMA", "jabatan": "Direktur" },
+        { "nama": "Budi Sjahrial, MBA", "jabatan": "Direktur" }
       ]
     },
     "bisnisPerusahaan": {
-      "deskripsiSingkat": "JECX adalah pengelola jaringan rumah sakit dan klinik mata JEC Eye Hospitals & Clinics, salah satu penyedia layanan kesehatan mata terbesar di Indonesia. Berdiri sejak 1984 (awalnya Klinik Mata Jakarta), JEC mengoperasikan 5 rumah sakit khusus mata dan 11 klinik mata. JECX merupakan entitas asosiasi PT Sarana Meditama Metropolitan Tbk (SAME), bagian dari Grup Emtek.",
-      "sektorIndustri": "Healthcare - Rumah Sakit & Klinik Mata",
+      "deskripsiSingkat": "JECX (JEC Eye Hospitals & Clinics) adalah jaringan rumah sakit dan klinik spesialis mata terbesar di Indonesia, berdiri sejak 1984. Mengoperasikan 5 rumah sakit spesialis mata dan 11 klinik utama yang tersebar di berbagai wilayah Indonesia. Merupakan entitas asosiasi PT Sarana Meditama Metropolitan Tbk (SAME), bagian dari Grup Emtek. Grup Perseroan mencatat 564.528 kunjungan pasien dan 51.530 tindakan operasi pada 2025.",
+      "sektorIndustri": "Healthcare - Rumah Sakit & Klinik Spesialis Mata",
       "produkUtama": [
-        "Operasi mata (LASIK, SMILE, katarak, glaukoma)",
-        "Layanan refraktif & koreksi penglihatan",
-        "Layanan vitreoretina",
-        "Injeksi intravitreal",
-        "Konsultasi & pemeriksaan mata spesialis",
-        "Divisi optik (kacamata & lensa kontak)",
-        "Medical tourism (ekspansi ke KEK Sanur, Bali)"
+        "Layanan operasi katarak, retina, dan bedah refraktif",
+        "Layanan lensa tanam",
+        "Bedah refraktif: LASIK, T-Dimension Z-LASIK, ReLEx6 SMILE, ReLEx6 SMILE Pro",
+        "Layanan kornea dan mata juling",
+        "Layanan infeksi ocular dan imunologi",
+        "Layanan glaukoma",
+        "Layanan neuro-ophthalmology",
+        "Layanan orbita, okuloplasti dan rekonstruksi",
+        "Layanan low-vision dan lensa kontak",
+        "Layanan 3D protesa",
+        "Divisi optik (kacamata & lensa)"
       ],
       "anakUsaha": [
-        { "nama": "PT Orbita", "bidangUsaha": "Operasional rumah sakit mata JEC", "kepemilikan": "mayoritas" },
-        { "nama": "PT Nitra Sanata Bali (NSB)", "bidangUsaha": "RS Mata JEC di Bali (termasuk KEK Sanur)", "kepemilikan": "mayoritas" },
-        { "nama": "PT JEC Candi Sejahtera", "bidangUsaha": "RS Mata JEC di Jawa Timur", "kepemilikan": "mayoritas" },
-        { "nama": "12 entitas anak lainnya", "bidangUsaha": "Klinik mata JEC di berbagai kota Indonesia", "kepemilikan": "mayoritas" }
+        { "nama": "PT JEC Medika Indonesia (JECM)", "bidangUsaha": "Klinik Mata Jakarta", "kepemilikan": "99,99%" },
+        { "nama": "PT Nira Sarana Bali", "bidangUsaha": "Klinik Mata Bali", "kepemilikan": "99,99%" },
+        { "nama": "PT Satu Orto (NRC)", "bidangUsaha": "RS Mata Semarang", "kepemilikan": "51,05%" },
+        { "nama": "PT JEC Medika Purwokerto (JMP)", "bidangUsaha": "RS Mata Purwokerto", "kepemilikan": "51,00%" },
+        { "nama": "PT Mitra Aniari (MIA)", "bidangUsaha": "Klinik Mata Purwokerto", "kepemilikan": "51,02%" },
+        { "nama": "PT Nira Medik Semarang (NMS)", "bidangUsaha": "RS Mata Semarang", "kepemilikan": "51,05%" },
+        { "nama": "PT JEC Kirana Sumatera (JKS)", "bidangUsaha": "RS Mata Sumatera", "kepemilikan": "51,00%" },
+        { "nama": "PT Orbita Multi (OMN)", "bidangUsaha": "Klinik Mata Surabaya", "kepemilikan": "51,05%" },
+        { "nama": "PT Husna (HMK)", "bidangUsaha": "Klinik Mata Bali", "kepemilikan": "51,00%" },
+        { "nama": "PT Orbita (OMM)", "bidangUsaha": "Klinik Mata Malang", "kepemilikan": "51,00%" },
+        { "nama": "PT Optika Novalla (ON)", "bidangUsaha": "Klinik Mata Kediri", "kepemilikan": "99,99%" },
+        { "nama": "PT JEC Candi Sejahtera (JCS)", "bidangUsaha": "RS Mata Jawa Timur", "kepemilikan": "37%" },
+        { "nama": "PT JEC Clinik Ophtha (JCOK)", "bidangUsaha": "Klinik Mata Kinder", "kepemilikan": "51%" },
+        { "nama": "PT Daksha Malti (DM)", "bidangUsaha": "Klinik Mata Kediri", "kepemilikan": "31%" },
+        { "nama": "PT JEC Bali (JECB)", "bidangUsaha": "Klinik Mata Bali (termasuk KEK Sanur)", "kepemilikan": "51,00%" }
       ]
     },
     "keuangan": {
       "pendapatan": [
-        { "tahun": "2023", "nilai": "Rp 818 Miliar" },
+        { "tahun": "2023", "nilai": "Rp 825 Miliar" },
         { "tahun": "2024", "nilai": "Rp 888 Miliar" },
         { "tahun": "2025", "nilai": "Rp 927 Miliar" }
       ],
       "labaBersih": [
-        { "tahun": "2023", "nilai": "Rp 48 Miliar" },
+        { "tahun": "2023", "nilai": "Rp 127 Miliar" },
         { "tahun": "2024", "nilai": "Rp 62 Miliar" },
         { "tahun": "2025", "nilai": "Rp 72 Miliar" }
       ],
       "totalAset": [
-        { "tahun": "2023", "nilai": "Rp 1.260 Miliar" },
-        { "tahun": "2024", "nilai": "Rp 1.380 Miliar" },
-        { "tahun": "2025", "nilai": "Rp 1.580 Miliar" }
+        { "tahun": "2023", "nilai": "Rp 1.353 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 1.423 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 1.451 Miliar" }
       ],
       "totalLiabilitas": [
-        { "tahun": "2023", "nilai": "Rp 575 Miliar" },
-        { "tahun": "2024", "nilai": "Rp 588 Miliar" },
+        { "tahun": "2023", "nilai": "Rp 522 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 611 Miliar" },
         { "tahun": "2025", "nilai": "Rp 640 Miliar" }
       ],
       "totalEkuitas": [
-        { "tahun": "2023", "nilai": "Rp 685 Miliar" },
-        { "tahun": "2024", "nilai": "Rp 792 Miliar" },
-        { "tahun": "2025", "nilai": "Rp 940 Miliar" }
+        { "tahun": "2023", "nilai": "Rp 831 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 812 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 811 Miliar" }
       ]
     },
     "penggunaanDanaIPO": [
@@ -420,22 +454,22 @@
       {
         "keperluan": "Penyaluran dana ke anak usaha",
         "persentase": "27,08%",
-        "deskripsi": "Rp50M setoran modal ke PT Nitra Sanata Bali (ekspansi Bali), Rp100M pinjaman ke PT Orbita (lunasi utang BCA), Rp35M pinjaman ke PT JEC Candi Sejahtera (lunasi utang BCA)"
+        "deskripsi": "Rp50M setoran modal ke PT Nira Sanata Bali (ekspansi Bali/KEK Sanur), Rp100M pinjaman ke PT Orbita (lunasi utang BCA), Rp35M pinjaman ke PT JEC Candi Sejahtera (lunasi utang BCA)"
       },
       {
         "keperluan": "Pelunasan utang bank HSBC",
         "persentase": "14,64%",
-        "deskripsi": "Pembayaran lebih awal sebagian pokok pinjaman kepada PT Bank HSBC Indonesia (Rp100 miliar)"
+        "deskripsi": "Pembayaran lebih awal sebagian pokok pinjaman kepada PT Bank HSBC Indonesia sebesar Rp100 miliar"
       },
       {
         "keperluan": "Pelunasan utang bank BCA",
         "persentase": "5,87%",
-        "deskripsi": "Pembayaran lebih awal sebagian pokok pinjaman kepada PT Bank Central Asia Tbk (Rp40 miliar)"
+        "deskripsi": "Pembayaran lebih awal sebagian pokok pinjaman kepada PT Bank Central Asia Tbk sebesar Rp40 miliar"
       }
     ],
-    "kebijakanDividen": "Setelah IPO, Perseroan berencana membagikan dividen tunai dengan rasio hingga maksimal 50% dari laba bersih setelah penyisihan cadangan wajib. Manajemen juga membuka peluang pembagian dividen interim jika kondisi keuangan memungkinkan. Keputusan final ditetapkan melalui RUPS.",
-    "risikoUtama": "Ketergantungan terhadap para dokter, perawat, dan tenaga profesional yang berperan penting dalam operasional dan strategi pertumbuhan perusahaan. Kehilangan dokter spesialis kunci dapat berdampak pada kualitas layanan dan reputasi.",
-    "catatanPenting": "JECX memiliki struktur kepemilikan unik: sahamnya dimiliki oleh 60+ dokter spesialis dan profesional yang bekerja di JEC. Dr. Waldensius Girsang (pendiri) melakukan divestasi 5% sahamnya melalui IPO ini — kepemilikannya turun dari 6,22% ke 0,59%. PT SAME (Grup Emtek) adalah pemegang saham strategis 28%. Tren keuangan positif: pendapatan dan laba naik konsisten 3 tahun. Ekspansi ke KEK Sanur Bali untuk medical tourism menjadi katalis pertumbuhan utama. Valuasi IPO dinilai cukup premium oleh beberapa analis."
+    "kebijakanDividen": "Setelah pencatatan saham di BEI, Perseroan dapat membagikan dividen tunai dengan rasio sebanyak-banyaknya 50% dari laba bersih setelah penyisihan cadangan wajib. Manajemen juga membuka kemungkinan pembagian dividen interim jika kondisi keuangan memungkinkan. Keputusan final ditetapkan melalui RUPS.",
+    "risikoUtama": "Risiko ketergantungan terhadap tenaga profesional (dokter spesialis mata dan tenaga medis) yang berperan penting dalam operasional dan kelancaran Grup Perseroan. Kehilangan dokter spesialis kunci dapat berdampak pada kualitas layanan dan reputasi.",
+    "catatanPenting": "Data keuangan aktual dari prospektus: pendapatan naik konsisten (Rp825M → Rp888M → Rp927M), TAPI laba bersih 2024 TURUN TAJAM -50,9% (dari Rp127M ke Rp62M) lalu pulih +16% di 2025 (Rp72M). Penurunan laba 2024 kemungkinan karena peningkatan biaya ekspansi dan beban operasional. Ekuitas relatif stagnan (~Rp811M) sementara liabilitas naik dari Rp522M ke Rp640M. Kepemilikan unik: 50+ dokter spesialis mata menjadi pemegang saham. Waldensius Girsang (pendiri) menjual 162 juta sahamnya via divestasi — kepemilikan turun dari 6,22% ke 0,59%. Lock-up berlaku untuk semua pemegang saham. 5 RS mata + 11 klinik, 564.528 kunjungan pasien (2025). Ekspansi ke KEK Sanur Bali untuk medical tourism."
   },
   {
     "id": "emmi",
