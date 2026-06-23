@@ -42,6 +42,8 @@ export interface Keuangan {
   pendapatan: DataKeuanganItem[];
   labaBersih: DataKeuanganItem[];
   totalAset: DataKeuanganItem[];
+  totalLiabilitas?: DataKeuanganItem[];
+  totalEkuitas?: DataKeuanganItem[];
 }
 
 export interface PenggunaanDanaIPO {
@@ -80,4 +82,6 @@ export interface IPOData {
   keuangan: Keuangan;
   penggunaanDanaIPO: PenggunaanDanaIPO[];
   kebijakanDividen: string;
+  risikoUtama?: string;
+  catatanPenting?: string;
 }

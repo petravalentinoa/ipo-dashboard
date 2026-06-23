@@ -84,6 +84,8 @@ export default async function IpoDetailPage({
     { metrik: "Pendapatan", data: ipo.keuangan.pendapatan },
     { metrik: "Laba Bersih", data: ipo.keuangan.labaBersih },
     { metrik: "Total Aset", data: ipo.keuangan.totalAset },
+    ...(ipo.keuangan.totalLiabilitas ? [{ metrik: "Total Liabilitas", data: ipo.keuangan.totalLiabilitas }] : []),
+    ...(ipo.keuangan.totalEkuitas ? [{ metrik: "Total Ekuitas", data: ipo.keuangan.totalEkuitas }] : []),
   ];
 
   return (
@@ -197,6 +199,18 @@ export default async function IpoDetailPage({
               })}
             </div>
           </div>
+
+          {ipo.risikoUtama && (
+            <div className="mt-6 flex gap-3 rounded-lg border border-red-200 bg-red-50 p-4">
+              <svg className="mt-0.5 h-5 w-5 shrink-0 text-accent-red" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z" />
+              </svg>
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-wider text-accent-red">Risiko Utama</p>
+                <p className="mt-1 text-sm leading-relaxed text-foreground">{ipo.risikoUtama}</p>
+              </div>
+            </div>
+          )}
         </section>
 
         {/* ========== SECTION 2: PEMEGANG SAHAM ========== */}
@@ -215,9 +229,10 @@ export default async function IpoDetailPage({
               </thead>
               <tbody>
                 {ipo.pemegangSaham.map((ps) => {
-                  const before = parseFloat(ps.persentaseSebelumIPO);
-                  const after = parseFloat(ps.persentaseSetelahIPO);
-                  const change = after - before;
+                  const before = parseFloat(ps.persentaseSebelumIPO.replace(",", "."));
+                  const after = parseFloat(ps.persentaseSetelahIPO.replace(",", "."));
+                  const hasChange = !isNaN(before) && !isNaN(after);
+                  const change = hasChange ? after - before : 0;
                   return (
                     <tr key={ps.nama} className="border-b border-border/50">
                       <td className="px-3 py-3 font-medium">{ps.nama}</td>
@@ -225,8 +240,7 @@ export default async function IpoDetailPage({
                       <td className="px-3 py-3 text-right font-jetbrains">{ps.persentaseSebelumIPO}</td>
                       <td className="px-3 py-3 text-right font-jetbrains">{ps.persentaseSetelahIPO}</td>
                       <td className={`px-3 py-3 text-right font-jetbrains font-medium ${change < 0 ? "text-accent-red" : change > 0 ? "text-accent-green" : ""}`}>
-                        {change > 0 ? "+" : ""}
-                        {change.toFixed(1)}%
+                        {hasChange ? `${change > 0 ? "+" : ""}${change.toFixed(1)}%` : "—"}
                       </td>
                     </tr>
                   );
@@ -459,6 +473,21 @@ export default async function IpoDetailPage({
             mengurangi beban hutang, bukan untuk pertumbuhan.
           </InfoBox>
         </section>
+
+        {/* ========== CATATAN PENTING ========== */}
+        {ipo.catatanPenting && (
+          <section className="scroll-mt-28 pb-16">
+            <div className="flex gap-3 rounded-xl border border-amber-300 bg-amber-50 p-5">
+              <svg className="mt-0.5 h-5 w-5 shrink-0 text-amber" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
+              </svg>
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-wider text-amber-700">Catatan Penting</p>
+                <p className="mt-1.5 text-sm leading-[1.7] text-foreground">{ipo.catatanPenting}</p>
+              </div>
+            </div>
+          </section>
+        )}
       </div>
     </div>
   );

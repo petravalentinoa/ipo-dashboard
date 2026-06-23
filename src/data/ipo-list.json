@@ -1,223 +1,176 @@
 [
   {
-    "id": "nusantara-digital-teknologi",
-    "namaPerusahaan": "PT Nusantara Digital Teknologi Tbk",
-    "kodeSaham": "NDTK",
+    "id": "rans",
+    "namaPerusahaan": "PT Rans Entertainmen Indonesia Tbk",
+    "kodeSaham": "RANS",
     "jadwalIPO": {
-      "penawaranAwal": "25-27 Juni 2025",
-      "penawaranUmum": "1-3 Juli 2025",
-      "penjatahanEfek": "4 Juli 2025",
-      "distribusiSaham": "7 Juli 2025",
-      "pencatatan": "8 Juli 2025"
+      "penawaranAwal": "23 - 25 Juni 2026",
+      "penawaranUmum": "30 Juni - 2 Juli 2026",
+      "penjatahanEfek": "6 Juli 2026",
+      "distribusiSaham": "8 Juli 2026",
+      "pencatatan": "10 Juli 2026"
     },
-    "hargaIPO": { "min": 380, "max": 450 },
-    "jumlahSahamDitawarkan": "2.500.000.000 lembar",
-    "penjaminEmisi": "PT Mandiri Sekuritas",
-    "status": "penawaran_umum",
-    "pemegangSaham": [
-      {
-        "nama": "PT Nusantara Investama",
-        "jumlahSaham": "7.000.000.000 lembar",
-        "persentaseSebelumIPO": "70%",
-        "persentaseSetelahIPO": "56%"
-      },
-      {
-        "nama": "Hendra Wijaya",
-        "jumlahSaham": "2.000.000.000 lembar",
-        "persentaseSebelumIPO": "20%",
-        "persentaseSetelahIPO": "16%"
-      },
-      {
-        "nama": "Sari Purnama",
-        "jumlahSaham": "1.000.000.000 lembar",
-        "persentaseSebelumIPO": "10%",
-        "persentaseSetelahIPO": "8%"
-      }
-    ],
-    "komisarisDanDireksi": {
-      "komisaris": [
-        { "nama": "Prof. Dr. Bambang Sutrisno", "jabatan": "Komisaris Utama" },
-        { "nama": "Ir. Ratna Megawati", "jabatan": "Komisaris Independen" },
-        { "nama": "Drs. Agus Hermawan, MBA", "jabatan": "Komisaris" }
-      ],
-      "direksi": [
-        { "nama": "Hendra Wijaya", "jabatan": "Direktur Utama" },
-        { "nama": "Sari Purnama", "jabatan": "Direktur Keuangan" },
-        { "nama": "Ir. Budi Santoso", "jabatan": "Direktur Teknologi" },
-        { "nama": "Dewi Lestari, S.E.", "jabatan": "Direktur Operasional" }
-      ]
-    },
-    "bisnisPerusahaan": {
-      "deskripsiSingkat": "PT Nusantara Digital Teknologi Tbk adalah perusahaan teknologi yang berfokus pada penyediaan layanan cloud computing dan solusi transformasi digital untuk korporasi di Indonesia. Perusahaan telah melayani lebih dari 500 klien korporat sejak berdiri tahun 2015 dan memiliki 3 data center di Jabodetabek.",
-      "sektorIndustri": "Teknologi Informasi",
-      "produkUtama": [
-        "NusaCloud - Layanan cloud computing",
-        "NusaERP - Sistem enterprise resource planning",
-        "NusaSecure - Solusi keamanan siber",
-        "NusaData - Platform analitik big data"
-      ],
-      "anakUsaha": [
-        {
-          "nama": "PT Nusa Data Center Indonesia",
-          "bidangUsaha": "Pengelolaan dan operasional data center",
-          "kepemilikan": "99,9%"
-        },
-        {
-          "nama": "PT Nusa Cyber Security",
-          "bidangUsaha": "Jasa konsultasi dan implementasi keamanan siber",
-          "kepemilikan": "80%"
-        }
-      ]
-    },
-    "keuangan": {
-      "pendapatan": [
-        { "tahun": "2022", "nilai": "Rp 850 Miliar" },
-        { "tahun": "2023", "nilai": "Rp 1,2 Triliun" },
-        { "tahun": "2024", "nilai": "Rp 1,8 Triliun" }
-      ],
-      "labaBersih": [
-        { "tahun": "2022", "nilai": "Rp 95 Miliar" },
-        { "tahun": "2023", "nilai": "Rp 156 Miliar" },
-        { "tahun": "2024", "nilai": "Rp 243 Miliar" }
-      ],
-      "totalAset": [
-        { "tahun": "2022", "nilai": "Rp 2,1 Triliun" },
-        { "tahun": "2023", "nilai": "Rp 3,0 Triliun" },
-        { "tahun": "2024", "nilai": "Rp 4,5 Triliun" }
-      ]
-    },
-    "penggunaanDanaIPO": [
-      {
-        "keperluan": "Pembangunan Data Center Baru",
-        "persentase": "45%",
-        "deskripsi": "Pembangunan data center tier-4 di Karawang, Jawa Barat dengan kapasitas 5.000 rak server untuk mendukung pertumbuhan layanan cloud computing."
-      },
-      {
-        "keperluan": "Pengembangan Produk dan Teknologi",
-        "persentase": "25%",
-        "deskripsi": "Investasi dalam riset dan pengembangan produk baru termasuk solusi AI dan machine learning untuk klien enterprise."
-      },
-      {
-        "keperluan": "Akuisisi Strategis",
-        "persentase": "15%",
-        "deskripsi": "Akuisisi perusahaan teknologi yang memiliki kompetensi komplementer untuk memperluas portofolio layanan."
-      },
-      {
-        "keperluan": "Modal Kerja",
-        "persentase": "15%",
-        "deskripsi": "Penguatan modal kerja perusahaan untuk mendukung operasional sehari-hari dan ekspansi tim."
-      }
-    ],
-    "kebijakanDividen": "Perusahaan berencana membagikan dividen tunai sebesar 20-30% dari laba bersih setiap tahunnya, dimulai dari tahun buku 2026 dengan mempertimbangkan kondisi keuangan dan rencana ekspansi."
-  },
-  {
-    "id": "sumber-pangan-nusantara",
-    "namaPerusahaan": "PT Sumber Pangan Nusantara Tbk",
-    "kodeSaham": "SPGN",
-    "jadwalIPO": {
-      "penawaranAwal": "7-9 Juli 2025",
-      "penawaranUmum": "14-16 Juli 2025",
-      "penjatahanEfek": "17 Juli 2025",
-      "distribusiSaham": "21 Juli 2025",
-      "pencatatan": "22 Juli 2025"
-    },
-    "hargaIPO": { "min": 210, "max": 260 },
-    "jumlahSahamDitawarkan": "1.500.000.000 lembar",
-    "penjaminEmisi": "PT BCA Sekuritas",
+    "hargaIPO": { "min": 135, "max": 170 },
+    "jumlahSahamDitawarkan": "2.525.000.000 lembar (20,02%)",
+    "penjaminEmisi": "PT Trimegah Sekuritas Indonesia Tbk",
     "status": "penawaran_awal",
     "pemegangSaham": [
       {
-        "nama": "Keluarga Tanoto (melalui PT Mega Agri Persada)",
-        "jumlahSaham": "4.500.000.000 lembar",
-        "persentaseSebelumIPO": "75%",
-        "persentaseSetelahIPO": "60%"
+        "nama": "Raffi Farid Ahmad",
+        "jumlahSaham": "7.935.000.000",
+        "persentaseSebelumIPO": "78,68%",
+        "persentaseSetelahIPO": "62,93%"
       },
       {
-        "nama": "IFC (International Finance Corporation)",
-        "jumlahSaham": "1.500.000.000 lembar",
-        "persentaseSebelumIPO": "25%",
-        "persentaseSetelahIPO": "20%"
+        "nama": "PT Indonesia Entertainmen Grup",
+        "jumlahSaham": "911.500.000",
+        "persentaseSebelumIPO": "9,04%",
+        "persentaseSetelahIPO": "7,23%"
+      },
+      {
+        "nama": "Soultan Ariq Rachman",
+        "jumlahSaham": "345.500.000",
+        "persentaseSebelumIPO": "3,43%",
+        "persentaseSetelahIPO": "2,74%"
+      },
+      {
+        "nama": "Dony Oskaria",
+        "jumlahSaham": "345.250.000",
+        "persentaseSebelumIPO": "3,42%",
+        "persentaseSetelahIPO": "2,74%"
+      },
+      {
+        "nama": "Sutanto Hartono",
+        "jumlahSaham": "144.000.000",
+        "persentaseSebelumIPO": "1,43%",
+        "persentaseSetelahIPO": "1,14%"
+      },
+      {
+        "nama": "Nagita Slavina Mariana Tengker",
+        "jumlahSaham": "124.750.000",
+        "persentaseSebelumIPO": "1,24%",
+        "persentaseSetelahIPO": "0,99%"
+      },
+      {
+        "nama": "Kaesang Pangarep",
+        "jumlahSaham": "115.250.000",
+        "persentaseSebelumIPO": "1,14%",
+        "persentaseSetelahIPO": "0,91%"
+      },
+      {
+        "nama": "Hikmat Janika",
+        "jumlahSaham": "86.250.000",
+        "persentaseSebelumIPO": "0,86%",
+        "persentaseSetelahIPO": "0,68%"
+      },
+      {
+        "nama": "PT Ekonomi Baru Investasi Teknologi",
+        "jumlahSaham": "76.750.000",
+        "persentaseSebelumIPO": "0,76%",
+        "persentaseSetelahIPO": "0,61%"
+      },
+      {
+        "nama": "Masyarakat (setelah IPO)",
+        "jumlahSaham": "2.525.000.000",
+        "persentaseSebelumIPO": "-",
+        "persentaseSetelahIPO": "20,02%"
       }
     ],
     "komisarisDanDireksi": {
       "komisaris": [
-        { "nama": "Dr. Ir. Hartono Tanoto", "jabatan": "Komisaris Utama" },
-        { "nama": "Michael Chen, CFA", "jabatan": "Komisaris Independen" },
-        { "nama": "Prof. Dr. Sri Mulyani Rahayu", "jabatan": "Komisaris Independen" }
+        { "nama": "Darwin Cyril Noerhadi", "jabatan": "Komisaris Utama (mantan Presiden Direktur Bursa Efek Jakarta)" },
+        { "nama": "Ambono Janurianto", "jabatan": "Komisaris Independen" }
       ],
       "direksi": [
-        { "nama": "Ir. Andi Tanoto, MBA", "jabatan": "Direktur Utama" },
-        { "nama": "Linda Hartono, S.E., M.M.", "jabatan": "Direktur Keuangan" },
-        { "nama": "Ir. Rizal Firmansyah", "jabatan": "Direktur Operasional & Produksi" },
-        { "nama": "Dr. Wulan Sari", "jabatan": "Direktur Riset & Pengembangan" }
+        { "nama": "Nagita Slavina Mariana Tengker", "jabatan": "Direktur Utama" },
+        { "nama": "Abrar", "jabatan": "Direktur" },
+        { "nama": "Grandy Prajayakti", "jabatan": "Direktur & Corporate Secretary" },
+        { "nama": "Rumunggu Yokonapita Napitupulu", "jabatan": "Direktur Keuangan (CFO)" }
       ]
     },
     "bisnisPerusahaan": {
-      "deskripsiSingkat": "PT Sumber Pangan Nusantara Tbk merupakan perusahaan agroindustri terpadu yang bergerak di bidang pengolahan dan distribusi produk pangan berbasis kelapa sawit, kedelai, dan jagung. Perusahaan memiliki 12 pabrik pengolahan di Sumatera dan Kalimantan serta jaringan distribusi ke lebih dari 50.000 titik penjualan di seluruh Indonesia.",
-      "sektorIndustri": "Consumer Goods - Makanan & Minuman",
+      "deskripsiSingkat": "RANS bergerak di bidang media dan hiburan sebagai platform entertainment berbasis Intellectual Property (IP) dan distribusi audiens. Ekosistem media sosialnya menjangkau lebih dari 155 juta pengikut. Model bisnis dikelola secara terintegrasi melalui entitas anak dan penyertaan strategis.",
+      "sektorIndustri": "Consumer Cyclicals - Media & Hiburan",
       "produkUtama": [
-        "Minyak goreng merek 'NusaFry'",
-        "Tepung kedelai dan susu kedelai 'SoyaNusa'",
-        "Pakan ternak 'NusaFeed'",
-        "Margarin dan shortening untuk industri"
+        "Produksi & Distribusi Konten (YouTube, TikTok, TV)",
+        "Pengelolaan IP & Aktivasi Komersial",
+        "Duta Merek & Talent Management",
+        "Event & Experiential Entertainment",
+        "Produk F&B dan Kecantikan berbasis IP",
+        "Taman Hiburan (Cipungland)",
+        "Periklanan"
       ],
       "anakUsaha": [
-        {
-          "nama": "PT Nusa Sawit Lestari",
-          "bidangUsaha": "Perkebunan dan pengolahan kelapa sawit",
-          "kepemilikan": "99%"
-        },
-        {
-          "nama": "PT Nusa Pangan Distribusi",
-          "bidangUsaha": "Distribusi dan logistik produk pangan",
-          "kepemilikan": "95%"
-        },
-        {
-          "nama": "PT Soya Nusantara Indonesia",
-          "bidangUsaha": "Pengolahan produk turunan kedelai",
-          "kepemilikan": "85%"
-        }
+        { "nama": "PT Rans Kreasi Indonesia (RKI)", "bidangUsaha": "Agensi kreatif & periklanan", "kepemilikan": "99,99%" },
+        { "nama": "PT Rans Nikmat Sejahtera (RNS)", "bidangUsaha": "Produk F&B dan kecantikan berbasis IP", "kepemilikan": "67,50%" },
+        { "nama": "PT Rans Pesona Indonesia (RPI)", "bidangUsaha": "Event karnaval & experiential entertainment", "kepemilikan": "51,00%" },
+        { "nama": "PT Rans Keluarga Bersama (RKB)", "bidangUsaha": "Pengelolaan venue & food court", "kepemilikan": "99,99%" },
+        { "nama": "PT Rans Mitra Kreasi (RMK)", "bidangUsaha": "Produksi animasi & musik", "kepemilikan": "80,00%" },
+        { "nama": "PT Rans Aset Indonesia (RAI)", "bidangUsaha": "Pengelolaan aset & properti", "kepemilikan": "99,99%" },
+        { "nama": "PT Rans Citra Mandiri (RCM)", "bidangUsaha": "Reproduksi media rekaman", "kepemilikan": "99,99%" }
       ]
     },
     "keuangan": {
       "pendapatan": [
-        { "tahun": "2022", "nilai": "Rp 4,8 Triliun" },
-        { "tahun": "2023", "nilai": "Rp 5,5 Triliun" },
-        { "tahun": "2024", "nilai": "Rp 6,3 Triliun" }
+        { "tahun": "2023", "nilai": "Rp 437,8 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 410,5 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 353,4 Miliar" }
       ],
       "labaBersih": [
-        { "tahun": "2022", "nilai": "Rp 312 Miliar" },
-        { "tahun": "2023", "nilai": "Rp 387 Miliar" },
-        { "tahun": "2024", "nilai": "Rp 465 Miliar" }
+        { "tahun": "2023", "nilai": "Rp 84,4 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 97,1 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 56,7 Miliar" }
       ],
       "totalAset": [
-        { "tahun": "2022", "nilai": "Rp 8,2 Triliun" },
-        { "tahun": "2023", "nilai": "Rp 9,1 Triliun" },
-        { "tahun": "2024", "nilai": "Rp 10,5 Triliun" }
+        { "tahun": "2023", "nilai": "Rp 516,9 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 590,8 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 461,0 Miliar" }
+      ],
+      "totalLiabilitas": [
+        { "tahun": "2023", "nilai": "Rp 198,6 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 156,5 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 120,2 Miliar" }
+      ],
+      "totalEkuitas": [
+        { "tahun": "2023", "nilai": "Rp 318,3 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 434,3 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 340,8 Miliar" }
       ]
     },
     "penggunaanDanaIPO": [
       {
-        "keperluan": "Ekspansi Kapasitas Produksi",
-        "persentase": "40%",
-        "deskripsi": "Pembangunan 2 pabrik pengolahan baru di Kalimantan Tengah dan Sulawesi Selatan untuk meningkatkan kapasitas produksi minyak goreng dan pakan ternak."
+        "keperluan": "Penyelenggaraan konser artis lokal & internasional",
+        "persentase": "37,61%",
+        "deskripsi": "Belanja operasional untuk penyelenggaraan konser di berbagai kota di Indonesia"
       },
       {
-        "keperluan": "Pengembangan Perkebunan",
-        "persentase": "25%",
-        "deskripsi": "Penanaman baru dan replanting kelapa sawit pada lahan seluas 15.000 hektar di Kalimantan untuk menjamin pasokan bahan baku jangka panjang."
+        "keperluan": "Akuisisi PT Rans Kosmetika Indonesia (Slavina)",
+        "persentase": "19,80%",
+        "deskripsi": "Ekspansi usaha melalui akuisisi kepemilikan saham pada bisnis kosmetik"
       },
       {
-        "keperluan": "Pelunasan Pinjaman Bank",
-        "persentase": "20%",
-        "deskripsi": "Pelunasan sebagian fasilitas kredit investasi dari PT Bank Mandiri (Persero) Tbk untuk memperbaiki rasio utang terhadap ekuitas."
+        "keperluan": "Pembangunan Cipungland",
+        "persentase": "18,64%",
+        "deskripsi": "Belanja modal untuk wahana bermain dan belajar edukatif bernama Cipungland"
       },
       {
-        "keperluan": "Modal Kerja",
-        "persentase": "15%",
-        "deskripsi": "Pembelian bahan baku dan penguatan modal kerja untuk mendukung peningkatan volume produksi."
+        "keperluan": "Pengembangan bisnis AI bersama Feedloop",
+        "persentase": "8,15%",
+        "deskripsi": "Pembentukan entitas usaha baru bersama PT Feedloop Global Teknologi untuk bisnis teknologi berbasis AI"
+      },
+      {
+        "keperluan": "Penyetoran modal ke entitas anak (RNS)",
+        "persentase": "8,82%",
+        "deskripsi": "Setoran modal saham ke RNS untuk pengembangan usaha utama dan ekspansi jaringan usaha"
+      },
+      {
+        "keperluan": "Pelunasan utang bank BNI",
+        "persentase": "6,98%",
+        "deskripsi": "Pembayaran lebih awal (pelunasan dipercepat) atas seluruh pokok utang kepada PT Bank Negara Indonesia"
       }
     ],
-    "kebijakanDividen": "Perusahaan merencanakan pembagian dividen kas sebesar 25-40% dari laba bersih setiap tahun buku, dengan mempertimbangkan kebutuhan belanja modal dan kondisi arus kas perusahaan."
+    "kebijakanDividen": "Perseroan belum menetapkan kebijakan dividen spesifik dalam prospektus ringkas. Berdasarkan riwayat, pada tahun 2025 Perseroan telah membagikan dividen sebesar Rp167,5 Miliar dari akumulasi saldo laba tahun-tahun sebelumnya. Kebijakan dividen ke depan akan mempertimbangkan laba bersih, kondisi keuangan, kebutuhan modal kerja, dan rencana ekspansi.",
+    "risikoUtama": "Ketergantungan terhadap talent utama yaitu Raffi Ahmad dan Nagita Slavina beserta keluarga. Ketergantungan tersebut berpotensi menimbulkan dampak negatif terhadap kinerja usaha dan keuangan Perseroan apabila terjadi penurunan keterlibatan atau isu reputasi.",
+    "catatanPenting": "Pendapatan RANS mengalami tren penurunan 3 tahun berturut-turut: dari Rp437,8M (2023) → Rp410,5M (2024) → Rp353,4M (2025). Laba bersih 2025 juga turun signifikan -41,6% YoY, meskipun laba 2024 mengandung komponen non-recurring (laba pelepasan entitas anak Rp44,9M). Lock-up period 8 bulan untuk seluruh pemegang saham lama. Raffi Ahmad berkomitmen tidak akan mengalihkan kepemilikannya selama 3 tahun setelah pencatatan."
   }
 ]
