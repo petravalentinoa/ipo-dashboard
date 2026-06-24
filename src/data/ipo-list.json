@@ -646,23 +646,29 @@
     "komisarisDanDireksi": {
       "komisaris": [
         { "nama": "Andi Widjaja", "jabatan": "Komisaris Utama" },
-        { "nama": "Dewi Muliaty Widjaja", "jabatan": "Komisaris" },
-        { "nama": "Indriyanto Seno Adji", "jabatan": "Komisaris Independen" }
+        { "nama": "Dra. Endang Wahyuningsih Huyanna", "jabatan": "Komisaris" },
+        { "nama": "Emmanuel Lesteto Wanandi", "jabatan": "Komisaris Independen" }
       ],
       "direksi": [
-        { "nama": "Lodewijk Arif Soenardi", "jabatan": "Direktur Utama" },
-        { "nama": "Yohannes Suharto", "jabatan": "Direktur" }
+         { "nama": "Christina Sandjaja", "jabatan": "Direktur Utama" },
+      { "nama": "Eka Herawati", "jabatan": "Direktur Marketing" },
+      { "nama": "Prasti Sulanjari", "jabatan": "Direktur Operasi" },
+      { "nama": "Lucia Herminawati", "jabatan": "Direktur Teknis" },
+      { "nama": "Sesilia Dian Krismawati", "jabatan": "Direktur Keuangan" }
+      
       ]
     },
     "bisnisPerusahaan": {
-      "deskripsiSingkat": "PRDL (nama komersial: Proline) adalah produsen alat kesehatan In Vitro Diagnostic (IVD), yaitu perangkat dan reagen untuk pemeriksaan diagnostik laboratorium. Anak usaha Grup Prodia yang memanfaatkan pengalaman lebih dari 45 tahun di bidang kimia klinik. Produk mencakup kimia klinik, hematologi, imunologi, biomolekular, dan instrumen diagnostik. Jaringan distribusi menjangkau 370 kabupaten/kota di Indonesia.",
+      "deskripsiSingkat": ""PRDL (Proline) adalah produsen alat kesehatan In Vitro Diagnostic (IVD) — perangkat dan reagen untuk pemeriksaan diagnostik laboratorium. Anak usaha Grup Prodia yang memanfaatkan pengalaman lebih dari 10 tahun di bidang IVD dengan kemitraan internasional (DiaSys Jerman). Produk mencakup reagen kimia klinik, hematologi, imunologi, biomolekular, dan instrumen diagnostik. Pendapatan berasal 66,22% dari segmen Pemerintah dan 33,78% dari swasta. Menjangkau 370+ kabupaten/kota; 47% faskes dan 38% dinkes belum jadi pelanggan.",
       "sektorIndustri": "Healthcare - In Vitro Diagnostics (IVD) / Alat Kesehatan Diagnostik",
       "produkUtama": [
         "Reagen kimia klinik (kontributor utama 81% pendapatan)",
         "Reagen hematologi",
         "Reagen imunologi & biomolekular",
         "Instrumen diagnostik laboratorium",
-        "Solusi IVD lengkap (formulasi, kemasan, pelatihan, dukungan)"
+        "Reagen profil lipid (Cholesterol, Trigliserida, HDL)",
+      "Reagen APRI Score untuk skrining kanker hati",
+      "Reagen kardiovaskular"
       ],
       "anakUsaha": [
         { "nama": "Tidak ada anak usaha", "bidangUsaha": "PRDL sendiri adalah anak usaha dari Grup Prodia", "kepemilikan": "-" }
@@ -670,27 +676,27 @@
     },
     "keuangan": {
       "pendapatan": [
-        { "tahun": "2023", "nilai": "Rp 48 Miliar" },
+        { "tahun": "2023", "nilai": "Rp 111,8 Miliar" },
         { "tahun": "2024", "nilai": "Rp 59 Miliar" },
         { "tahun": "2025", "nilai": "Rp 74 Miliar" }
       ],
       "labaBersih": [
-        { "tahun": "2023", "nilai": "Rp 7 Miliar" },
+        { "tahun": "2023", "nilai": "Rp 35 Miliar" },
         { "tahun": "2024", "nilai": "Rp 10 Miliar" },
         { "tahun": "2025", "nilai": "Rp 17 Miliar" }
       ],
       "totalAset": [
-        { "tahun": "2023", "nilai": "Rp 141 Miliar" },
-        { "tahun": "2024", "nilai": "Rp 163 Miliar" },
+        { "tahun": "2023", "nilai": "Rp 125 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 184 Miliar" },
         { "tahun": "2025", "nilai": "Rp 194 Miliar" }
       ],
       "totalLiabilitas": [
-        { "tahun": "2023", "nilai": "Rp 75 Miliar" },
-        { "tahun": "2024", "nilai": "Rp 97 Miliar" },
+        { "tahun": "2023", "nilai": "Rp 69 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 118 Miliar" },
         { "tahun": "2025", "nilai": "Rp 111 Miliar" }
       ],
       "totalEkuitas": [
-        { "tahun": "2023", "nilai": "Rp 66 Miliar" },
+        { "tahun": "2023", "nilai": "Rp 56 Miliar" },
         { "tahun": "2024", "nilai": "Rp 66 Miliar" },
         { "tahun": "2025", "nilai": "Rp 83 Miliar" }
       ]
@@ -712,9 +718,9 @@
         "deskripsi": "Pembelian bahan baku, pengembangan produk, dan kegiatan pemasaran"
       }
     ],
-    "kebijakanDividen": "Kebijakan dividen belum dinyatakan secara spesifik dalam prospektus ringkas. Sebagai referensi, induk PRDA membagikan dividen dengan payout ratio 70% dari laba tahun berjalan 2025.",
-    "risikoUtama": "Ketergantungan terhadap belanja pemerintah di sektor kesehatan. Sebagian besar pendapatan PRDL berasal dari pengadaan pemerintah dan fasilitas kesehatan yang dibiayai anggaran negara.",
-    "catatanPenting": "PRDL adalah IPO paling kecil dari segi nilai (maks Rp62,75 miliar) dan harga (Rp100-120/saham) di batch Juni-Juli 2026. Namun pertumbuhan kuat: pendapatan +26,8% YoY dan laba +69,9% YoY di 2025. Didukung Grup Prodia (lab diagnostik terbesar Indonesia, 402 outlet di 34 provinsi) dan mitra teknologi DiaSys dari Jerman. Peluang besar: 47% faskes dan 38% dinkes di Indonesia belum jadi pelanggan. Program Cek Kesehatan Gratis pemerintah (anggaran Rp2,6 triliun) bisa jadi katalis. Porsi terbesar dana IPO (63%) untuk bayar utang — perlu dicermati."
+    "kebijakanDividen": "Setelah Penawaran Umum Perdana Saham, Perseroan akan membayarkan dividen tunai kepada pemegang saham dengan rasio sebanyak-banyaknya 70% dari laba bersih tahun berjalan. Sebagai referensi, induk PRDA (PT Prodia Widyahusada Tbk) membagikan dividen dengan payout ratio 70% dari laba tahun berjalan 2025.",
+    "risikoUtama": "Risiko ketergantungan terhadap belanja Pemerintah pada sektor kesehatan. Pendapatan PRDL berasal 66,22% dari segmen Pemerintah — sangat bergantung pada realisasi anggaran dan tender pemerintah.",
+    "catatanPenting": "(1) Pendapatan 2023 ternyata Rp111,8 miliar (bukan Rp48M seperti estimasi) — karena ada proyek one-off pemeriksaan kesehatan profil lipid dari Kemenkes. (2) Pendapatan 2024 TURUN TAJAM -47,5% ke Rp58,7M setelah proyek one-off selesai. (3) Laba 2023 juga tinggi: Rp35,8M (bukan Rp7M). (4) Profil keuangan menunjukkan Perseroan sangat bergantung pada proyek pemerintah — pendapatan bisa fluktuatif. (5) Margin laba bersih tetap tinggi: 22,8% (2025). (6) Kebijakan dividen 70% — tertinggi di batch IPO ini. (7) Program Cek Kesehatan Gratis pemerintah (Rp2,6T anggaran 2026, 140 juta masyarakat) menjadi katalis potensial."
   },
   {
     "id": "jeli",
