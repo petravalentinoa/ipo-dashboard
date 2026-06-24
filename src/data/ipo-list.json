@@ -489,31 +489,31 @@
     "pemegangSaham": [
       {
         "nama": "Surya Gunawan Widjaja (pengendali)",
-        "jumlahSaham": "-",
+        "jumlahSaham": "326.246.000",
         "persentaseSebelumIPO": "30,00%",
         "persentaseSetelahIPO": "21,00%"
       },
       {
         "nama": "Andrew Ignatius Widjaja",
-        "jumlahSaham": "-",
+        "jumlahSaham": "285.410.000",
         "persentaseSebelumIPO": "23,00%",
         "persentaseSetelahIPO": "16,10%"
       },
       {
         "nama": "Florian Chris Widjaja (Direktur Utama)",
-        "jumlahSaham": "-",
+        "jumlahSaham": "195.200.000",
         "persentaseSebelumIPO": "16,00%",
         "persentaseSetelahIPO": "11,20%"
       },
       {
         "nama": "Andrian Matthew Widjaja (Direktur)",
-        "jumlahSaham": "-",
+        "jumlahSaham": "195.200.000",
         "persentaseSebelumIPO": "16,00%",
         "persentaseSetelahIPO": "11,20%"
       },
       {
         "nama": "Eddy Lie (Direktur)",
-        "jumlahSaham": "-",
+        "jumlahSaham": "176.994.000",
         "persentaseSebelumIPO": "15,00%",
         "persentaseSetelahIPO": "10,50%"
       },
@@ -556,36 +556,36 @@
     },
     "keuangan": {
       "pendapatan": [
-        { "tahun": "2023", "nilai": "Rp 340 Miliar" },
+        { "tahun": "2023", "nilai": "Rp 173 Miliar" },
         { "tahun": "2024", "nilai": "Rp 385 Miliar" },
         { "tahun": "2025", "nilai": "Rp 455 Miliar" }
       ],
       "labaBersih": [
-        { "tahun": "2023", "nilai": "Rp 14 Miliar" },
-        { "tahun": "2024", "nilai": "Rp 16 Miliar" },
-        { "tahun": "2025", "nilai": "Rp 46 Miliar" }
+        { "tahun": "2023", "nilai": "Rp 0,9 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 11,3 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 32,4 Miliar" }
       ],
       "totalAset": [
-        { "tahun": "2023", "nilai": "Rp 424 Miliar" },
-        { "tahun": "2024", "nilai": "Rp 452 Miliar" },
-        { "tahun": "2025", "nilai": "Rp 551 Miliar" }
+        { "tahun": "2023", "nilai": "Rp 341 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 714 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 564 Miliar" }
       ],
       "totalLiabilitas": [
-        { "tahun": "2023", "nilai": "Rp 312 Miliar" },
-        { "tahun": "2024", "nilai": "Rp 317 Miliar" },
-        { "tahun": "2025", "nilai": "Rp 365 Miliar" }
+        { "tahun": "2023", "nilai": "Rp 285 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 641 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 419 Miliar" }
       ],
       "totalEkuitas": [
-        { "tahun": "2023", "nilai": "Rp 112 Miliar" },
-        { "tahun": "2024", "nilai": "Rp 135 Miliar" },
-        { "tahun": "2025", "nilai": "Rp 186 Miliar" }
+        { "tahun": "2023", "nilai": "Rp 56 Miliar" },
+        { "tahun": "2024", "nilai": "Rp 73 Miliar" },
+        { "tahun": "2025", "nilai": "Rp 145 Miliar" }
       ]
     },
     "penggunaanDanaIPO": [
       {
         "keperluan": "Modal kerja operasional",
         "persentase": "68,70%",
-        "deskripsi": "Pembelian barang terkait proyek, bahan baku, dan persediaan alat kesehatan"
+        "deskripsi": "Pembelian barang terkait proyek (tender IsDB, World Bank), bahan baku, dan persediaan alat kesehatan"
       },
       {
         "keperluan": "Pelunasan sebagian utang Bank Ina Perdana",
@@ -598,9 +598,9 @@
         "deskripsi": "Belanja modal untuk pembangunan gedung pabrik alat kesehatan di Cikupa, Tangerang"
       }
     ],
-    "kebijakanDividen": "Perseroan berencana membagikan dividen tunai mulai tahun buku 2027 dengan rasio pembayaran hingga 30% dari laba bersih tahun berjalan. Besaran dividen ditentukan melalui RUPS dengan mempertimbangkan kondisi keuangan, arus kas, kebutuhan modal kerja, dan rencana investasi.",
-    "risikoUtama": "Risiko konsentrasi pelanggan — sebagian besar penjualan EMMI masih ditujukan kepada instansi pemerintah. Ketergantungan pada proyek-proyek pengadaan pemerintah dapat mempengaruhi stabilitas pendapatan.",
-    "catatanPenting": "EMMI adalah perusahaan keluarga Widjaja — seluruh 5 pemegang saham sebelum IPO berasal dari keluarga dan kerabat. Free float 30% cukup besar dibanding IPO lain di batch ini. Laba bersih 2025 melonjak 188% YoY (dari Rp16M ke Rp46M). Perusahaan telah memperoleh sertifikasi TKDN (Tingkat Komponen Dalam Negeri) yang menjadi nilai tambah di tender pemerintah. Selama 2022-2025, perolehan proyek lebih dari Rp750 miliar. Direksi relatif muda (Dirut usia 40 tahun)."
+    "kebijakanDividen": "Mulai tahun buku 2027, Perseroan bermaksud membayarkan dividen tunai sebanyak-banyaknya 30% dari laba bersih tahun berjalan. Besarnya pembagian dividen ditentukan berdasarkan RUPS dan bergantung pada hasil usaha, arus kas, prospek usaha, dan kebutuhan modal kerja. Per 31 Desember 2025, Perseroan telah menyisihkan Rp200 juta untuk dana cadangan wajib.",
+    "risikoUtama": "Risiko konsentrasi pelanggan — sebagian besar pendapatan EMMI bergantung pada proyek-proyek pengadaan tender pemerintah (IsDB, World Bank, Kemenkes). Konsentrasi pada sejumlah kecil proyek besar membuat pendapatan sangat fluktuatif.",
+    "catatanPenting": "(1) Pendapatan 2024 melonjak +122,5% karena memenangkan 2 tender IsDB senilai total Rp631,4 miliar. (2) Laba bersih 2023 hanya Rp0,9 miliar (nyaris nol), melonjak ke Rp32,4 miliar di 2025. (3) Total aset melonjak ke Rp714M di 2024 lalu turun ke Rp564M di 2025 — fluktuasi besar akibat sifat project-based. (4) DER sangat tinggi: 2,89x (2025), pernah 8,74x (2024). (5) Perusahaan keluarga Widjaja + Lie — semua pemegang saham juga menjadi komisaris/direksi. (6) Tender World Bank (SOPHI) senilai Rp101,7M dimenangkan 2025. (7) Pasar alkes Indonesia masih 75% impor — peluang substitusi besar."
   },
   {
     "id": "prdl",
