@@ -4,14 +4,19 @@ import Link from "next/link";
 import type { IPOData, StatusIPO } from "@/types/ipo";
 
 const STATUS_ORDER: Record<StatusIPO, number> = {
-  penawaran_awal: 0,
-  penawaran_umum: 1,
-  penjatahan_efek: 2,
-  distribusi_saham: 3,
-  tercatat: 4,
+  offering: 0,
+  penawaran_awal: 1,
+  penawaran_umum: 2,
+  penjatahan_efek: 3,
+  distribusi_saham: 4,
+  tercatat: 5,
 };
 
 const STATUS_CONFIG: Record<StatusIPO, { label: string; className: string }> = {
+  offering: {
+    label: "Masa Penawaran",
+    className: "bg-green-100 text-green-800",
+  },
   penawaran_awal: {
     label: "Penawaran Awal",
     className: "bg-blue-100 text-blue-800",
@@ -26,7 +31,7 @@ const STATUS_CONFIG: Record<StatusIPO, { label: string; className: string }> = {
   },
   distribusi_saham: {
     label: "Distribusi Saham",
-    className: "bg-green-100 text-green-800",
+    className: "bg-emerald-100 text-emerald-800",
   },
   tercatat: {
     label: "Tercatat di BEI",
@@ -46,6 +51,8 @@ function getStatusDate(ipo: IPOData): string | null {
   switch (ipo.status) {
     case "penawaran_awal":
       return ipo.jadwalIPO.penawaranAwal;
+    case "offering":
+      return ipo.jadwalIPO.penawaranUmum;
     case "penawaran_umum":
       return ipo.jadwalIPO.penawaranUmum;
     case "penjatahan_efek":

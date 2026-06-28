@@ -21,15 +21,17 @@ function getIpo(id: string): IPOData | undefined {
 }
 
 const STATUS_CONFIG: Record<StatusIPO, { label: string; className: string }> = {
+  offering: { label: "Masa Penawaran", className: "bg-green-100 text-green-800" },
   penawaran_awal: { label: "Penawaran Awal", className: "bg-blue-100 text-blue-800" },
   penawaran_umum: { label: "Penawaran Umum", className: "bg-yellow-100 text-yellow-800" },
   penjatahan_efek: { label: "Penjatahan Efek", className: "bg-orange-100 text-orange-800" },
-  distribusi_saham: { label: "Distribusi Saham", className: "bg-green-100 text-green-800" },
+  distribusi_saham: { label: "Distribusi Saham", className: "bg-emerald-100 text-emerald-800" },
   tercatat: { label: "Tercatat di BEI", className: "bg-gray-100 text-gray-600" },
 };
 
 const JADWAL_LABELS: { key: keyof IPOData["jadwalIPO"]; label: string }[] = [
-  { key: "penawaranAwal", label: "Penawaran Awal" },
+  { key: "penawaranAwal", label: "Book Building" },
+  { key: "efektif", label: "Pernyataan Efektif" },
   { key: "penawaranUmum", label: "Penawaran Umum" },
   { key: "penjatahanEfek", label: "Penjatahan Efek" },
   { key: "distribusiSaham", label: "Distribusi Saham" },
@@ -38,10 +40,20 @@ const JADWAL_LABELS: { key: keyof IPOData["jadwalIPO"]; label: string }[] = [
 
 const JADWAL_STATUS_MAP: Record<string, StatusIPO> = {
   penawaranAwal: "penawaran_awal",
+  efektif: "offering",
   penawaranUmum: "penawaran_umum",
   penjatahanEfek: "penjatahan_efek",
   distribusiSaham: "distribusi_saham",
   pencatatan: "tercatat",
+};
+
+const STATUS_STEP_ORDER: Record<StatusIPO, number> = {
+  penawaran_awal: 0,
+  offering: 1,
+  penawaran_umum: 2,
+  penjatahan_efek: 3,
+  distribusi_saham: 4,
+  tercatat: 5,
 };
 
 function formatHarga(min: number, max: number): string {
@@ -150,41 +162,53 @@ export default async function IpoDetailPage({
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-muted">
               Jadwal IPO
             </h3>
+            {ipo.statusDetail && (
+              <p className="mb-4 text-sm text-text-secondary">{ipo.statusDetail}</p>
+            )}
             <div className="relative space-y-0">
-              {JADWAL_LABELS.map((step, i) => {
+              {JADWAL_LABELS.filter((step) => ipo.jadwalIPO[step.key]).map((step, i, filtered) => {
                 const date = ipo.jadwalIPO[step.key];
-                const stepStatus = JADWAL_STATUS_MAP[step.key];
-                const isCurrentOrPast =
-                  Object.values(JADWAL_STATUS_MAP).indexOf(stepStatus) <=
-                  Object.values(JADWAL_STATUS_MAP).indexOf(ipo.status);
-                const isCurrent = stepStatus === ipo.status;
+                const currentStatusOrder = STATUS_STEP_ORDER[ipo.status];
+                const stepStatusOrder = STATUS_STEP_ORDER[JADWAL_STATUS_MAP[step.key]];
+                const isPast = stepStatusOrder < currentStatusOrder;
+                const isCurrent = stepStatusOrder === currentStatusOrder;
+                const isCurrentOrPast = isPast || isCurrent;
                 return (
                   <div key={step.key} className="flex items-start gap-4">
                     <div className="flex flex-col items-center">
-                      <div
-                        className={`h-3 w-3 rounded-full border-2 ${
-                          isCurrent
-                            ? "border-primary bg-primary"
-                            : isCurrentOrPast
-                              ? "border-primary bg-primary/30"
+                      {isPast ? (
+                        <div className="flex h-4 w-4 items-center justify-center rounded-full bg-green-500">
+                          <svg className="h-2.5 w-2.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                          </svg>
+                        </div>
+                      ) : (
+                        <div
+                          className={`h-3.5 w-3.5 rounded-full border-2 ${
+                            isCurrent
+                              ? "border-primary bg-primary animate-pulse"
                               : "border-border bg-white"
-                        }`}
-                      />
-                      {i < JADWAL_LABELS.length - 1 && (
+                          }`}
+                        />
+                      )}
+                      {i < filtered.length - 1 && (
                         <div
                           className={`w-0.5 h-8 ${
-                            isCurrentOrPast ? "bg-primary/30" : "bg-border"
+                            isPast ? "bg-green-300" : isCurrent ? "bg-primary/30" : "bg-border"
                           }`}
                         />
                       )}
                     </div>
-                    <div className="-mt-0.5 pb-4">
+                    <div className={`${isPast ? "-mt-0" : "-mt-0.5"} pb-4`}>
                       <p
                         className={`text-[13px] font-medium ${
-                          isCurrent ? "text-primary" : isCurrentOrPast ? "text-foreground" : "text-text-secondary"
+                          isCurrent ? "text-primary" : isPast ? "text-green-700" : "text-text-secondary"
                         }`}
                       >
                         {step.label}
+                        {isPast && (
+                          <span className="ml-2 text-[10px] text-green-600">Selesai</span>
+                        )}
                         {isCurrent && (
                           <span className="ml-2 inline-block rounded bg-primary/10 px-1.5 py-0.5 text-[10px] font-semibold text-primary">
                             Saat ini

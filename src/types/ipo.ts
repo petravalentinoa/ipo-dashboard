@@ -54,6 +54,7 @@ export interface PenggunaanDanaIPO {
 
 export interface JadwalIPO {
   penawaranAwal: string;
+  efektif?: string;
   penawaranUmum: string;
   penjatahanEfek: string;
   distribusiSaham: string;
@@ -62,6 +63,7 @@ export interface JadwalIPO {
 
 export type StatusIPO =
   | "penawaran_awal"
+  | "offering"
   | "penawaran_umum"
   | "penjatahan_efek"
   | "distribusi_saham"
@@ -76,6 +78,7 @@ export interface IPOData {
   jumlahSahamDitawarkan: string;
   penjaminEmisi: string;
   status: StatusIPO;
+  statusDetail?: string;
   pemegangSaham: PemegangSaham[];
   komisarisDanDireksi: KomisarisDanDireksi;
   bisnisPerusahaan: BisnisPerusahaan;

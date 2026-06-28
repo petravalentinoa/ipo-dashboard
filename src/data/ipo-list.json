@@ -5,15 +5,17 @@
     "kodeSaham": "RANS",
     "jadwalIPO": {
       "penawaranAwal": "23 - 25 Juni 2026",
-      "penawaranUmum": "30 Juni - 2 Juli 2026",
-      "penjatahanEfek": "6 Juli 2026",
-      "distribusiSaham": "8 Juli 2026",
+      "efektif": "30 Juni 2026",
+      "penawaranUmum": "2 - 8 Juli 2026",
+      "penjatahanEfek": "8 - 9 Juli 2026",
+      "distribusiSaham": "9 Juli 2026",
       "pencatatan": "10 Juli 2026"
     },
     "hargaIPO": { "min": 135, "max": 170 },
     "jumlahSahamDitawarkan": "2.525.000.000 lembar (20,02%)",
     "penjaminEmisi": "PT Trimegah Sekuritas Indonesia Tbk",
-    "status": "penawaran_awal",
+    "status": "offering",
+    "statusDetail": "Book building selesai. Masa penawaran umum dimulai awal Juli 2026.",
     "pemegangSaham": [
       {
         "nama": "Raffi Farid Ahmad",
@@ -171,7 +173,7 @@
     ],
     "kebijakanDividen": "Perseroan belum menetapkan kebijakan dividen spesifik dalam prospektus ringkas. Berdasarkan riwayat, pada tahun 2025 Perseroan telah membagikan dividen sebesar Rp167,5 Miliar dari akumulasi saldo laba tahun-tahun sebelumnya. Kebijakan dividen ke depan akan mempertimbangkan laba bersih, kondisi keuangan, kebutuhan modal kerja, dan rencana ekspansi.",
     "risikoUtama": "Ketergantungan terhadap talent utama yaitu Raffi Ahmad dan Nagita Slavina beserta keluarga. Ketergantungan tersebut berpotensi menimbulkan dampak negatif terhadap kinerja usaha dan keuangan Perseroan apabila terjadi penurunan keterlibatan atau isu reputasi.",
-    "catatanPenting": "Pendapatan RANS mengalami tren penurunan 3 tahun berturut-turut: dari Rp437,8M (2023) → Rp410,5M (2024) → Rp353,4M (2025). Laba bersih 2025 juga turun signifikan -41,6% YoY, meskipun laba 2024 mengandung komponen non-recurring (laba pelepasan entitas anak Rp44,9M). Lock-up period 8 bulan untuk seluruh pemegang saham lama. Raffi Ahmad berkomitmen tidak akan mengalihkan kepemilikannya selama 3 tahun setelah pencatatan."
+    "catatanPenting": "Pendapatan RANS mengalami tren penurunan 3 tahun berturut-turut: dari Rp437,8M (2023) → Rp410,5M (2024) → Rp353,4M (2025). Laba bersih 2025 juga turun signifikan -41,6% YoY, meskipun laba 2024 mengandung komponen non-recurring (laba pelepasan entitas anak Rp44,9M). Lock-up period 8 bulan untuk seluruh pemegang saham lama. Raffi Ahmad berkomitmen tidak akan mengalihkan kepemilikannya selama 3 tahun setelah pencatatan. Analis Alrich menyebut valuasi PER 30-38x 'premium/overvalue untuk perusahaan yang belum memiliki rekam jejak pertumbuhan laba yang konsisten'."
   },
   {
     "id": "bach",
@@ -179,7 +181,8 @@
     "kodeSaham": "BACH",
     "jadwalIPO": {
       "penawaranAwal": "22 - 24 Juni 2026",
-      "penawaranUmum": "29 Juni - 1 Juli 2026",
+      "efektif": "30 Juni 2026",
+      "penawaranUmum": "1 - 3 Juli 2026",
       "penjatahanEfek": "2 Juli 2026",
       "distribusiSaham": "6 Juli 2026",
       "pencatatan": "7 Juli 2026"
@@ -187,7 +190,8 @@
     "hargaIPO": { "min": 400, "max": 500 },
     "jumlahSahamDitawarkan": "615.000.000 lembar (15,06%)",
     "penjaminEmisi": "PT Erdikha Elit Sekuritas",
-    "status": "penawaran_awal",
+    "status": "offering",
+    "statusDetail": "Book building selesai. Masa penawaran umum dimulai awal Juli 2026.",
     "pemegangSaham": [
       {
         "nama": "PT Bach Multi Sukses Investama (BMSI)",
@@ -297,7 +301,7 @@
     ],
     "kebijakanDividen": "Setelah IPO, Perseroan berencana membagikan dividen kas hingga maksimal 50% dari laba bersih mulai tahun buku 2026 (dibayarkan tahun 2027). Direksi dapat mengubah kebijakan dividen sewaktu-waktu dengan persetujuan RUPS.",
     "risikoUtama": "Ketergantungan terhadap pihak pemasok genset. Perseroan bergantung pada ketersediaan dan harga dari pemasok genset utama (Himoinsa dan lainnya), yang dapat mempengaruhi marjin dan operasional jika terjadi gangguan pasokan.",
-    "catatanPenting": "PENTING: Setelah IPO, akan terjadi perubahan pengendali. GTP (afiliasi Grup Djarum via TOWR) akan mengeksekusi hak opsi untuk membeli 1,04 miliar saham dari BMSI, sehingga kepemilikan GTP naik menjadi 51%. Ini berarti BACH secara efektif akan menjadi bagian dari Grup Djarum/TOWR. Keuangan menunjukkan pertumbuhan sangat kuat: pendapatan +39,66% YoY, laba bersih +97,54% YoY di 2025. Namun, Debt-to-Equity ratio cukup tinggi di 1,30x."
+    "catatanPenting": "PENTING: Setelah IPO, akan terjadi perubahan pengendali. GTP (afiliasi Grup Djarum via TOWR) akan mengeksekusi hak opsi untuk membeli 1,04 miliar saham dari BMSI, sehingga kepemilikan GTP naik menjadi 51%. Ini berarti BACH secara efektif akan menjadi bagian dari Grup Djarum/TOWR. Keuangan menunjukkan pertumbuhan sangat kuat: pendapatan +39,66% YoY, laba bersih +97,54% YoY di 2025. Namun, Debt-to-Equity ratio cukup tinggi di 1,30x. Analis Hendra (BRI Danareksa) menjagokan BACH sebagai IPO paling menarik dari segi keseimbangan pertumbuhan, profitabilitas, dan valuasi."
   },
   {
     "id": "jecx",
@@ -305,15 +309,17 @@
     "kodeSaham": "JECX",
     "jadwalIPO": {
       "penawaranAwal": "22 - 24 Juni 2026",
-      "penawaranUmum": "29 Juni - 1 Juli 2026",
+      "efektif": "30 Juni 2026",
+      "penawaranUmum": "1 - 3 Juli 2026",
       "penjatahanEfek": "2 Juli 2026",
       "distribusiSaham": "3 Juli 2026",
-      "pencatatan": "6 Juli 2026"
+      "pencatatan": "7 Juli 2026"
     },
     "hargaIPO": { "min": 1200, "max": 1400 },
     "jumlahSahamDitawarkan": "487.983.500 lembar (15% — 325.322.300 saham baru 10% + 162.661.200 saham divestasi 5%)",
     "penjaminEmisi": "PT Trimegah Sekuritas Indonesia Tbk",
-    "status": "penawaran_awal",
+    "status": "offering",
+    "statusDetail": "Book building selesai. Masa penawaran umum dimulai awal Juli 2026.",
     "pemegangSaham": [
       {
         "nama": "PT Sarana Meditama Metropolitan Tbk (SAME / Grup Emtek)",
@@ -469,7 +475,7 @@
     ],
     "kebijakanDividen": "Setelah pencatatan saham di BEI, Perseroan dapat membagikan dividen tunai dengan rasio sebanyak-banyaknya 50% dari laba bersih setelah penyisihan cadangan wajib. Manajemen juga membuka kemungkinan pembagian dividen interim jika kondisi keuangan memungkinkan. Keputusan final ditetapkan melalui RUPS.",
     "risikoUtama": "Risiko ketergantungan terhadap tenaga profesional (dokter spesialis mata dan tenaga medis) yang berperan penting dalam operasional dan kelancaran Grup Perseroan. Kehilangan dokter spesialis kunci dapat berdampak pada kualitas layanan dan reputasi.",
-    "catatanPenting": "Data keuangan aktual dari prospektus: pendapatan naik konsisten (Rp825M → Rp888M → Rp927M), TAPI laba bersih 2024 TURUN TAJAM -50,9% (dari Rp127M ke Rp62M) lalu pulih +16% di 2025 (Rp72M). Penurunan laba 2024 kemungkinan karena peningkatan biaya ekspansi dan beban operasional. Ekuitas relatif stagnan (~Rp811M) sementara liabilitas naik dari Rp522M ke Rp640M. Kepemilikan unik: 50+ dokter spesialis mata menjadi pemegang saham. Waldensius Girsang (pendiri) menjual 162 juta sahamnya via divestasi — kepemilikan turun dari 6,22% ke 0,59%. Lock-up berlaku untuk semua pemegang saham. 5 RS mata + 11 klinik, 564.528 kunjungan pasien (2025). Ekspansi ke KEK Sanur Bali untuk medical tourism."
+    "catatanPenting": "Data keuangan aktual dari prospektus: pendapatan naik konsisten (Rp825M → Rp888M → Rp927M), TAPI laba bersih 2024 TURUN TAJAM -50,9% (dari Rp127M ke Rp62M) lalu pulih +16% di 2025 (Rp72M). Penurunan laba 2024 kemungkinan karena peningkatan biaya ekspansi dan beban operasional. Ekuitas relatif stagnan (~Rp811M) sementara liabilitas naik dari Rp522M ke Rp640M. Kepemilikan unik: 50+ dokter spesialis mata menjadi pemegang saham. Waldensius Girsang (pendiri) menjual 162 juta sahamnya via divestasi — kepemilikan turun dari 6,22% ke 0,59%. Lock-up berlaku untuk semua pemegang saham. 5 RS mata + 11 klinik, 564.528 kunjungan pasien (2025). Ekspansi ke KEK Sanur Bali untuk medical tourism. Analis BRI Danareksa menyebut JECX sebagai 'valuasi paling premium' di batch ini."
   },
   {
     "id": "emmi",
@@ -477,7 +483,8 @@
     "kodeSaham": "EMMI",
     "jadwalIPO": {
       "penawaranAwal": "22 - 24 Juni 2026",
-      "penawaranUmum": "29 Juni - 1 Juli 2026",
+      "efektif": "30 Juni 2026",
+      "penawaranUmum": "2 - 6 Juli 2026",
       "penjatahanEfek": "3 Juli 2026",
       "distribusiSaham": "7 Juli 2026",
       "pencatatan": "8 Juli 2026"
@@ -485,7 +492,8 @@
     "hargaIPO": { "min": 446, "max": 515 },
     "jumlahSahamDitawarkan": "522.857.000 lembar (30%)",
     "penjaminEmisi": "PT BRI Danareksa Sekuritas & PT Ina Sekuritas Indonesia",
-    "status": "penawaran_awal",
+    "status": "offering",
+    "statusDetail": "Book building selesai. Masa penawaran umum dimulai awal Juli 2026.",
     "pemegangSaham": [
       {
         "nama": "Surya Gunawan Widjaja (pengendali)",
@@ -607,8 +615,9 @@
     "namaPerusahaan": "PT Prodia Diagnostic Line Tbk (Proline)",
     "kodeSaham": "PRDL",
     "jadwalIPO": {
-      "penawaranAwal": "18 - 23 Juni 2026",
-      "penawaranUmum": "29 Juni - 1 Juli 2026",
+      "penawaranAwal": "18 - 22 Juni 2026",
+      "efektif": "26 Juni 2026",
+      "penawaranUmum": "1 - 7 Juli 2026",
       "penjatahanEfek": "3 Juli 2026",
       "distribusiSaham": "7 Juli 2026",
       "pencatatan": "9 Juli 2026"
@@ -616,7 +625,8 @@
     "hargaIPO": { "min": 100, "max": 120 },
     "jumlahSahamDitawarkan": "522.900.000 lembar (30%)",
     "penjaminEmisi": "PT Sucor Sekuritas",
-    "status": "penawaran_awal",
+    "status": "offering",
+    "statusDetail": "Book building selesai. Masa penawaran umum dimulai awal Juli 2026.",
     "pemegangSaham": [
       {
         "nama": "PT Prodia Utama (pengendali, induk Grup Prodia)",
@@ -667,8 +677,8 @@
         "Reagen imunologi & biomolekular",
         "Instrumen diagnostik laboratorium",
         "Reagen profil lipid (Cholesterol, Trigliserida, HDL)",
-      "Reagen APRI Score untuk skrining kanker hati",
-      "Reagen kardiovaskular"
+        "Reagen APRI Score untuk skrining kanker hati",
+        "Reagen kardiovaskular"
       ],
       "anakUsaha": [
         { "nama": "Tidak ada anak usaha", "bidangUsaha": "PRDL sendiri adalah anak usaha dari Grup Prodia", "kepemilikan": "-" }
@@ -720,7 +730,7 @@
     ],
     "kebijakanDividen": "Setelah Penawaran Umum Perdana Saham, Perseroan akan membayarkan dividen tunai kepada pemegang saham dengan rasio sebanyak-banyaknya 70% dari laba bersih tahun berjalan. Sebagai referensi, induk PRDA (PT Prodia Widyahusada Tbk) membagikan dividen dengan payout ratio 70% dari laba tahun berjalan 2025.",
     "risikoUtama": "Risiko ketergantungan terhadap belanja Pemerintah pada sektor kesehatan. Pendapatan PRDL berasal 66,22% dari segmen Pemerintah — sangat bergantung pada realisasi anggaran dan tender pemerintah.",
-    "catatanPenting": "(1) Pendapatan 2023 ternyata Rp111,8 miliar (bukan Rp48M seperti estimasi) — karena ada proyek one-off pemeriksaan kesehatan profil lipid dari Kemenkes. (2) Pendapatan 2024 TURUN TAJAM -47,5% ke Rp58,7M setelah proyek one-off selesai. (3) Laba 2023 juga tinggi: Rp35,8M (bukan Rp7M). (4) Profil keuangan menunjukkan Perseroan sangat bergantung pada proyek pemerintah — pendapatan bisa fluktuatif. (5) Margin laba bersih tetap tinggi: 22,8% (2025). (6) Kebijakan dividen 70% — tertinggi di batch IPO ini. (7) Program Cek Kesehatan Gratis pemerintah (Rp2,6T anggaran 2026, 140 juta masyarakat) menjadi katalis potensial."
+    "catatanPenting": "(1) Pendapatan 2023 ternyata Rp111,8 miliar (bukan Rp48M seperti estimasi) — karena ada proyek one-off pemeriksaan kesehatan profil lipid dari Kemenkes. (2) Pendapatan 2024 TURUN TAJAM -47,5% ke Rp58,7M setelah proyek one-off selesai. (3) Laba 2023 juga tinggi: Rp35,8M (bukan Rp7M). (4) Profil keuangan menunjukkan Perseroan sangat bergantung pada proyek pemerintah — pendapatan bisa fluktuatif. (5) Margin laba bersih tetap tinggi: 22,8% (2025). (6) Kebijakan dividen 70% — tertinggi di batch IPO ini. (7) Program Cek Kesehatan Gratis pemerintah (Rp2,6T anggaran 2026, 140 juta masyarakat) menjadi katalis potensial. Analis Elandry Pratama menilai PRDL paling menarik karena memiliki ruang rerating valuasi terbesar."
   },
   {
     "id": "jeli",
@@ -728,15 +738,17 @@
     "kodeSaham": "JELI",
     "jadwalIPO": {
       "penawaranAwal": "15 - 22 Juni 2026",
-      "penawaranUmum": "29 Juni - 1 Juli 2026",
-      "penjatahanEfek": "2 Juli 2026",
-      "distribusiSaham": "6 Juli 2026",
+      "efektif": "26 Juni 2026",
+      "penawaranUmum": "1 - 3 Juli 2026",
+      "penjatahanEfek": "3 Juli 2026",
+      "distribusiSaham": "4 Juli 2026",
       "pencatatan": "7 Juli 2026"
     },
     "hargaIPO": { "min": 900, "max": 1120 },
     "jumlahSahamDitawarkan": "350.000.000 lembar (25,93%)",
     "penjaminEmisi": "PT Sucor Sekuritas",
-    "status": "penawaran_awal",
+    "status": "offering",
+    "statusDetail": "Book building selesai. Masa penawaran umum dimulai awal Juli 2026.",
     "pemegangSaham": [
       {
         "nama": "PT Niramas Utama International (pengendali, milik Japyusuf Hamdani)",
